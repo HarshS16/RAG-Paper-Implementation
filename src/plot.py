@@ -1,8 +1,9 @@
 import json
 import matplotlib.pyplot as plt
 import numpy as np
+from config import OUTPUT_FILE, FINAL_PLOT_FILE
 
-with open("results/output.json") as f:
+with open(OUTPUT_FILE) as f:
     results = json.load(f)
 
 # --- Extract ---
@@ -59,7 +60,5 @@ for i, v in enumerate(rag_eff):
 plt.legend()
 plt.grid(axis='y', linestyle='--', alpha=0.6)
 
-plt.savefig("results/final_plot.png", dpi=300, bbox_inches='tight')
-print("Saved: results/final_plot.png")
-
-plt.show()
+plt.savefig(FINAL_PLOT_FILE, dpi=300, bbox_inches='tight')
+print(f"Saved: {FINAL_PLOT_FILE}")

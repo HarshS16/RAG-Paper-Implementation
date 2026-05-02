@@ -1,6 +1,7 @@
 from retriever import *
 from generator import generate_answer
 from evaluate import evaluate_answer, parse_scores, compute_hit_at_k
+from config import THRESHOLDS, TOP_K, OUTPUT_FILE, THRESHOLD_EXPERIMENT_FILE
 import json
 
 # Load data
@@ -14,12 +15,9 @@ queries = [
     {"question": "Why has Mumbai Indians been successful in IPL?", "answer": ["leadership", "titles"]}
 ]
 
-thresholds = [0.45, 0.5, 0.55, 0.6, 0.62, 0.65, 0.68, 0.7]
 all_results = []
 
-K = 3  # retrieval depth
-
-for THRESHOLD in thresholds:
+for THRESHOLD in THRESHOLDS:
     print(f"\n===== Running for THRESHOLD = {THRESHOLD} =====")
 
     results = []
@@ -29,7 +27,7 @@ for THRESHOLD in thresholds:
         gt = item["answer"]
 
         # 🔹 Retrieve
-        retrieved = retrieve(query, model, index, chunks, k=K)
+        retrieved = retrieve(query, model, index, chunks, k=TOP_K)
 
         # 🔹 Deduplicate texts
         retrieved_texts = list({r["text"] for r in retrieved})
@@ -99,7 +97,7 @@ for THRESHOLD in thresholds:
 # Save results
 # =========================
 
-with open("results/threshold_experiment.json", "w") as f:
+with open(THRESHOLD_EXPERIMENT_FILE, "w") as f:
     json.dump(all_results, f, indent=2)
 
 print("\nSaved threshold experiment results")

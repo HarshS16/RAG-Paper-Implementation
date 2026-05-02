@@ -1,6 +1,7 @@
 import json
+from config import OUTPUT_FILE
 
-with open("results/output.json") as f:
+with open(OUTPUT_FILE) as f:
     results = json.load(f)
 
 

@@ -1,5 +1,6 @@
 import json
 import matplotlib.pyplot as plt
+from config import THRESHOLD_EXPERIMENT_FILE, THRESHOLD_PLOT_FILE
 
 # 🔹 Better default styling (important for papers)
 plt.rcParams.update({
@@ -9,7 +10,7 @@ plt.rcParams.update({
 })
 
 # Load data
-with open("results/threshold_experiment.json") as f:
+with open(THRESHOLD_EXPERIMENT_FILE) as f:
     data = json.load(f)
 
 thresholds = [d["threshold"] for d in data]
@@ -66,5 +67,5 @@ plt.subplots_adjust(right=0.80)
 plt.title("Effect of Threshold on RAG Performance", pad=15)
 
 # Save high-quality image
-plt.savefig("results/threshold_plot.png", dpi=300, bbox_inches='tight')
-print("Saved: results/threshold_plot.png")
+plt.savefig(THRESHOLD_PLOT_FILE, dpi=300, bbox_inches='tight')
+print(f"Saved: {THRESHOLD_PLOT_FILE}")
