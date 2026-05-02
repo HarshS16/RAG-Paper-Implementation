@@ -248,6 +248,19 @@ results/
 - Human evaluation benchmarks
 - Better calibration of abstention thresholds
 
+## Reproducibility
+
+To reproduce results:
+1. Build dataset: `python src/preprocess.py`
+2. Run experiments: `python src/experiments.py`
+3. Generate plots: `python src/plot.py`
+
+All results are deterministic given the same dataset and model configuration.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Author
 
 Harsh Srivastava
