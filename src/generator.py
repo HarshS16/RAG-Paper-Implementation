@@ -8,17 +8,19 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def build_prompt(context, query):
     return f"""
-Answer the question using ONLY the context below.
+You are answering questions using the provided context.
 
-If the answer is not in the context, say:
-"I don't know based on the provided context."
-
-Do NOT use external knowledge.
+Rules:
+- Use the context as the primary source
+- If the answer is clearly present, answer confidently
+- If the answer is partially present, try to infer carefully
+- Only say "I don't know" if the context has NO relevant information
 
 Context:
 {context}
 
 Question: {query}
+
 Answer:
 """
 

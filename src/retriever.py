@@ -7,22 +7,27 @@ def load_chunks():
     with open("data/chunks.json") as f:
         return json.load(f)
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
-
+model = SentenceTransformer('all-mpnet-base-v2')
 def embed_chunks(chunks):
     texts = [c["text"] for c in chunks]
-    return model.encode(texts), texts
+    embeddings = model.encode(texts, normalize_embeddings=True)
+    return embeddings, chunks
 
 def build_index(embeddings):
-    dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
-    index.add(np.array(embeddings))
+    index = faiss.IndexFlatIP(embeddings.shape[1])
+    index.add(embeddings.astype('float32'))
     return index
 
-def retrieve(query, model, index, texts, k=3):
-    query_embedding = model.encode([query])
+
+def retrieve(query, model, index, chunks, k=3):
+    query_embedding = model.encode([query], normalize_embeddings=True)
     D, I = index.search(query_embedding, k)
-    
-    return [texts[i] for i in I[0]]
 
+    results = []
+    for score, idx in zip(D[0], I[0]):
+        results.append({
+            "text": chunks[idx]["text"],
+            "score": float(score)
+        })
 
+    return results

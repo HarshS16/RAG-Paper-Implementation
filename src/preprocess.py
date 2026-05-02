@@ -13,7 +13,7 @@ def clean_text(text):
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=300,
+    chunk_size=200,
     chunk_overlap=50
 )
 

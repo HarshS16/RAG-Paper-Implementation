@@ -8,25 +8,21 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def evaluation_prompt(question, context, answer):
     return f"""
-You are a strict evaluator for a research benchmark.
+You are a strict evaluator.
 
 Scoring rules:
-- 5 = fully correct, precise, and completely supported by context
-- 4 = mostly correct but minor issues
-- 3 = partially correct or incomplete
-- 2 = mostly incorrect
-- 1 = incorrect or hallucinated
+- If the model says "I don't know":
+  → Relevance = 1 (it failed to answer)
+  → Faithfulness = 5 (it did not hallucinate)
 
-IMPORTANT:
-- Penalize ANY missing detail
-- Penalize ANY unsupported claim
-- Do NOT give 5 unless answer is perfect
-- Most answers should NOT be 5
+- Relevance:
+  1 = did not answer
+  3 = partial answer
+  5 = fully answers the question
 
-Evaluate:
-
-Relevance: Does the answer fully address the question?
-Faithfulness: Is every claim supported by the context?
+- Faithfulness:
+  1 = hallucinated / unsupported
+  5 = fully grounded in context
 
 Return ONLY:
 Relevance: <number>
@@ -60,3 +56,10 @@ def parse_scores(text):
             scores["faithfulness"] = float(line.split(":")[1].strip())
     
     return scores
+
+def compute_hit_at_k(retrieved_chunks, keywords):
+    for chunk in retrieved_chunks:
+        text = chunk.lower()
+        if any(keyword.lower() in text for keyword in keywords):
+            return 1
+    return 0
