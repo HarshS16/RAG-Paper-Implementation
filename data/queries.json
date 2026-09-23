@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "q001",
+    "category": "factual",
+    "answerable": true,
+    "question": "Who owns and organises the Indian Premier League?",
+    "keywords": [
+      "Board of Control for Cricket in India",
+      "BCCI"
+    ]
+  },
+  {
+    "id": "q002",
+    "category": "factual",
+    "answerable": true,
+    "question": "In which format of cricket is the Indian Premier League played?",
+    "keywords": [
+      "Twenty20",
+      "T20"
+    ]
+  },
+  {
+    "id": "q003",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is the Orange Cap awarded for in the IPL?",
+    "keywords": [
+      "Orange Cap"
+    ]
+  },
+  {
+    "id": "q004",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is the Purple Cap awarded for in the IPL?",
+    "keywords": [
+      "Purple Cap"
+    ]
+  },
+  {
+    "id": "q005",
+    "category": "factual",
+    "answerable": true,
+    "question": "In which year was the Indian Premier League founded?",
+    "keywords": [
+      "2007",
+      "2008",
+      "founded"
+    ]
+  },
+  {
+    "id": "q006",
+    "category": "factual",
+    "answerable": true,
+    "question": "In which city are the Chennai Super Kings based?",
+    "keywords": [
+      "Chennai"
+    ]
+  },
+  {
+    "id": "q007",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which stadium is the home ground of the Mumbai Indians?",
+    "keywords": [
+      "Wankhede"
+    ]
+  },
+  {
+    "id": "q008",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which stadium is the home ground of Royal Challengers Bengaluru?",
+    "keywords": [
+      "Chinnaswamy"
+    ]
+  },
+  {
+    "id": "q009",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which stadium is the home ground of the Kolkata Knight Riders?",
+    "keywords": [
+      "Eden Gardens"
+    ]
+  },
+  {
+    "id": "q010",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL franchise is based in Jaipur?",
+    "keywords": [
+      "Rajasthan Royals",
+      "Jaipur"
+    ]
+  },
+  {
+    "id": "q011",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL franchise does Virat Kohli play for?",
+    "keywords": [
+      "Royal Challengers"
+    ]
+  },
+  {
+    "id": "q012",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL team did MS Dhoni captain?",
+    "keywords": [
+      "Chennai Super Kings",
+      "Dhoni"
+    ]
+  },
+  {
+    "id": "q013",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which team won the first edition of the IPL in 2008?",
+    "keywords": [
+      "Rajasthan Royals"
+    ]
+  },
+  {
+    "id": "q014",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which team won the 2024 Indian Premier League?",
+    "keywords": [
+      "Kolkata Knight Riders"
+    ]
+  },
+  {
+    "id": "q015",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which team won the 2025 Indian Premier League?",
+    "keywords": [
+      "Royal Challengers Bengaluru"
+    ]
+  },
+  {
+    "id": "q016",
+    "category": "factual",
+    "answerable": true,
+    "question": "Who captained the Rajasthan Royals in the 2008 IPL season?",
+    "keywords": [
+      "Shane Warne",
+      "Warne"
+    ]
+  },
+  {
+    "id": "q017",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which two IPL franchises were suspended for two seasons in 2015?",
+    "keywords": [
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "suspend"
+    ]
+  },
+  {
+    "id": "q018",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which franchise took the place of Chennai Super Kings during their suspension?",
+    "keywords": [
+      "Rising Pune Supergiant"
+    ]
+  },
+  {
+    "id": "q019",
+    "category": "factual",
+    "answerable": true,
+    "question": "What were the Delhi Capitals known as before 2019?",
+    "keywords": [
+      "Delhi Daredevils"
+    ]
+  },
+  {
+    "id": "q020",
+    "category": "factual",
+    "answerable": true,
+    "question": "What were the Punjab Kings known as before 2021?",
+    "keywords": [
+      "Kings XI Punjab"
+    ]
+  },
+  {
+    "id": "q021",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which two teams joined the Indian Premier League in 2022?",
+    "keywords": [
+      "Gujarat Titans",
+      "Lucknow Super Giants"
+    ]
+  },
+  {
+    "id": "q022",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which team won the IPL in its debut season in 2022?",
+    "keywords": [
+      "Gujarat Titans"
+    ]
+  },
+  {
+    "id": "q023",
+    "category": "factual",
+    "answerable": true,
+    "question": "Who captained the Gujarat Titans to the 2022 IPL title?",
+    "keywords": [
+      "Hardik Pandya",
+      "Pandya"
+    ]
+  },
+  {
+    "id": "q024",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which country does the cricketer Rashid Khan represent?",
+    "keywords": [
+      "Afghanistan"
+    ]
+  },
+  {
+    "id": "q025",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL team does Andre Russell play for?",
+    "keywords": [
+      "Kolkata Knight Riders"
+    ]
+  },
+  {
+    "id": "q026",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which country does the batter Chris Gayle represent?",
+    "keywords": [
+      "West Indies",
+      "Jamaica"
+    ]
+  },
+  {
+    "id": "q027",
+    "category": "factual",
+    "answerable": true,
+    "question": "In which Indian city is the Narendra Modi Stadium located?",
+    "keywords": [
+      "Ahmedabad"
+    ]
+  },
+  {
+    "id": "q028",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which is the largest cricket stadium in the world by seating capacity?",
+    "keywords": [
+      "Narendra Modi Stadium"
+    ]
+  },
+  {
+    "id": "q029",
+    "category": "factual",
+    "answerable": true,
+    "question": "Who is the owner of the Kolkata Knight Riders franchise?",
+    "keywords": [
+      "Shah Rukh Khan",
+      "Red Chillies"
+    ]
+  },
+  {
+    "id": "q030",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL franchise is owned by Red Chillies Entertainment?",
+    "keywords": [
+      "Kolkata Knight Riders",
+      "Red Chillies"
+    ]
+  },
+  {
+    "id": "q031",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which company originally owned the Royal Challengers Bangalore franchise?",
+    "keywords": [
+      "United Spirits",
+      "Vijay Mallya",
+      "Diageo"
+    ]
+  },
+  {
+    "id": "q032",
+    "category": "factual",
+    "answerable": true,
+    "question": "In which year was the Women's Premier League launched in India?",
+    "keywords": [
+      "2023",
+      "Women's Premier League"
+    ]
+  },
+  {
+    "id": "q033",
+    "category": "factual",
+    "answerable": true,
+    "question": "What was the Indian Cricket League?",
+    "keywords": [
+      "Indian Cricket League",
+      "unofficial",
+      "rebel"
+    ]
+  },
+  {
+    "id": "q034",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL franchise was formerly known as the Deccan Chargers?",
+    "keywords": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ]
+  },
+  {
+    "id": "q035",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which city do the Sunrisers Hyderabad represent?",
+    "keywords": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "id": "q036",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL team plays its home matches at the Arun Jaitley Stadium?",
+    "keywords": [
+      "Delhi Capitals",
+      "Delhi Daredevils"
+    ]
+  },
+  {
+    "id": "q037",
+    "category": "factual",
+    "answerable": true,
+    "question": "Who holds the record for the highest individual score in an IPL innings?",
+    "keywords": [
+      "Chris Gayle",
+      "175"
+    ]
+  },
+  {
+    "id": "q038",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which bowler has taken the most wickets in IPL history?",
+    "keywords": [
+      "Yuzvendra Chahal",
+      "Chahal",
+      "most wickets"
+    ]
+  },
+  {
+    "id": "q039",
+    "category": "factual",
+    "answerable": true,
+    "question": "What is Jasprit Bumrah's bowling style?",
+    "keywords": [
+      "fast bowler",
+      "right-arm fast",
+      "pace"
+    ]
+  },
+  {
+    "id": "q040",
+    "category": "factual",
+    "answerable": true,
+    "question": "Which IPL team did David Warner captain to a title?",
+    "keywords": [
+      "Sunrisers Hyderabad",
+      "Warner"
+    ]
+  },
+  {
+    "id": "q041",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why were the Chennai Super Kings suspended from the IPL?",
+    "keywords": [
+      "spot-fixing",
+      "betting",
+      "suspend"
+    ]
+  },
+  {
+    "id": "q042",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why is MS Dhoni regarded as one of the most successful captains in IPL history?",
+    "keywords": [
+      "Dhoni",
+      "captain",
+      "title"
+    ]
+  },
+  {
+    "id": "q043",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why was the 2009 IPL season held in South Africa?",
+    "keywords": [
+      "South Africa",
+      "general election",
+      "2009"
+    ]
+  },
+  {
+    "id": "q044",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why was part of the 2014 IPL season played in the United Arab Emirates?",
+    "keywords": [
+      "United Arab Emirates",
+      "UAE",
+      "election"
+    ]
+  },
+  {
+    "id": "q045",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How does the IPL player auction work?",
+    "keywords": [
+      "auction",
+      "bid",
+      "franchise"
+    ]
+  },
+  {
+    "id": "q046",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How are the IPL playoffs structured?",
+    "keywords": [
+      "playoff",
+      "Qualifier",
+      "Eliminator"
+    ]
+  },
+  {
+    "id": "q047",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why did the IPL expand to ten teams in 2022?",
+    "keywords": [
+      "ten teams",
+      "expansion",
+      "2022"
+    ]
+  },
+  {
+    "id": "q048",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How does the player retention system affect which players enter the IPL auction?",
+    "keywords": [
+      "retention",
+      "retain",
+      "auction"
+    ]
+  },
+  {
+    "id": "q049",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why was the Indian Cricket League regarded as a rebel league?",
+    "keywords": [
+      "Indian Cricket League",
+      "unofficial",
+      "BCCI"
+    ]
+  },
+  {
+    "id": "q050",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How did the 2020 IPL season differ from earlier seasons?",
+    "keywords": [
+      "United Arab Emirates",
+      "COVID",
+      "2020"
+    ]
+  },
+  {
+    "id": "q051",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How did the Gujarat Titans perform in their first IPL season?",
+    "keywords": [
+      "Gujarat Titans",
+      "2022",
+      "title"
+    ]
+  },
+  {
+    "id": "q052",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How did Rising Pune Supergiant come to play in the IPL?",
+    "keywords": [
+      "Rising Pune Supergiant",
+      "suspension",
+      "2016"
+    ]
+  },
+  {
+    "id": "q053",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why is the Indian Premier League considered commercially significant?",
+    "keywords": [
+      "brand value",
+      "revenue",
+      "valuation"
+    ]
+  },
+  {
+    "id": "q054",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How is the winner of the Orange Cap determined over a season?",
+    "keywords": [
+      "Orange Cap",
+      "most runs"
+    ]
+  },
+  {
+    "id": "q055",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why do IPL franchises operate under a salary cap?",
+    "keywords": [
+      "salary cap",
+      "purse"
+    ]
+  },
+  {
+    "id": "q056",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How are overseas players restricted in an IPL playing eleven?",
+    "keywords": [
+      "overseas",
+      "four"
+    ]
+  },
+  {
+    "id": "q057",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why did the Deccan Chargers franchise cease to exist?",
+    "keywords": [
+      "Deccan Chargers",
+      "terminate",
+      "sold"
+    ]
+  },
+  {
+    "id": "q058",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How did Virat Kohli's IPL career with Royal Challengers develop?",
+    "keywords": [
+      "Kohli",
+      "Royal Challengers",
+      "2008"
+    ]
+  },
+  {
+    "id": "q059",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "Why was the 2021 IPL season suspended midway through?",
+    "keywords": [
+      "COVID",
+      "postpone",
+      "2021"
+    ]
+  },
+  {
+    "id": "q060",
+    "category": "reasoning",
+    "answerable": true,
+    "question": "How did the Mumbai Indians build their record of IPL success?",
+    "keywords": [
+      "Mumbai Indians",
+      "title",
+      "five"
+    ]
+  },
+  {
+    "id": "q061",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which team has won more IPL titles, the Chennai Super Kings or the Mumbai Indians?",
+    "keywords": [
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "five"
+    ]
+  },
+  {
+    "id": "q062",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Who has scored more runs in the IPL, Virat Kohli or Rohit Sharma?",
+    "keywords": [
+      "Kohli",
+      "Rohit Sharma",
+      "runs"
+    ]
+  },
+  {
+    "id": "q063",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which stadium has the larger seating capacity, Eden Gardens or the Wankhede Stadium?",
+    "keywords": [
+      "Eden Gardens",
+      "Wankhede",
+      "capacity"
+    ]
+  },
+  {
+    "id": "q064",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which competition was established first, the Indian Premier League or the Indian Cricket League?",
+    "keywords": [
+      "Indian Cricket League",
+      "2007",
+      "Indian Premier League"
+    ]
+  },
+  {
+    "id": "q065",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which franchise joined the IPL later, the Gujarat Titans or the Sunrisers Hyderabad?",
+    "keywords": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad",
+      "2022"
+    ]
+  },
+  {
+    "id": "q066",
+    "category": "comparative",
+    "answerable": true,
+    "question": "How do the Chennai Super Kings and Royal Challengers Bengaluru compare in IPL titles won?",
+    "keywords": [
+      "Chennai Super Kings",
+      "Royal Challengers",
+      "title"
+    ]
+  },
+  {
+    "id": "q067",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which venue is larger, the Narendra Modi Stadium or the M. Chinnaswamy Stadium?",
+    "keywords": [
+      "Narendra Modi Stadium",
+      "Chinnaswamy",
+      "capacity"
+    ]
+  },
+  {
+    "id": "q068",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which franchise has the longer unbroken IPL history, the Rajasthan Royals or the Lucknow Super Giants?",
+    "keywords": [
+      "Rajasthan Royals",
+      "Lucknow Super Giants",
+      "2022"
+    ]
+  },
+  {
+    "id": "q069",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which tournament is longer established, the Indian Premier League or the Women's Premier League?",
+    "keywords": [
+      "Women's Premier League",
+      "2023",
+      "2008"
+    ]
+  },
+  {
+    "id": "q070",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which team has won the IPL more recently, the Kolkata Knight Riders or the Mumbai Indians?",
+    "keywords": [
+      "Kolkata Knight Riders",
+      "2024",
+      "Mumbai Indians"
+    ]
+  },
+  {
+    "id": "q071",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which is the shorter format, Twenty20 or One Day International cricket?",
+    "keywords": [
+      "Twenty20",
+      "overs",
+      "One Day"
+    ]
+  },
+  {
+    "id": "q072",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which of these franchises has changed its name, the Delhi Capitals or the Chennai Super Kings?",
+    "keywords": [
+      "Delhi Daredevils",
+      "Delhi Capitals",
+      "renamed"
+    ]
+  },
+  {
+    "id": "q073",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Who has captained more IPL franchises, MS Dhoni or Rohit Sharma?",
+    "keywords": [
+      "Dhoni",
+      "Rohit Sharma",
+      "captain"
+    ]
+  },
+  {
+    "id": "q074",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which player is the more prolific IPL wicket-taker, Yuzvendra Chahal or Bhuvneshwar Kumar?",
+    "keywords": [
+      "Chahal",
+      "Bhuvneshwar",
+      "wickets"
+    ]
+  },
+  {
+    "id": "q075",
+    "category": "comparative",
+    "answerable": true,
+    "question": "Which city has hosted more IPL finals, Chennai or Ahmedabad?",
+    "keywords": [
+      "Chennai",
+      "Ahmedabad",
+      "final"
+    ]
+  },
+  {
+    "id": "q076",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many teams competed in the 2025 Indian Premier League?",
+    "keywords": [
+      "ten",
+      "10 teams",
+      "2025"
+    ]
+  },
+  {
+    "id": "q077",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many IPL titles have the Mumbai Indians won?",
+    "keywords": [
+      "five",
+      "Mumbai Indians"
+    ]
+  },
+  {
+    "id": "q078",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many IPL titles have the Chennai Super Kings won?",
+    "keywords": [
+      "five",
+      "Chennai Super Kings"
+    ]
+  },
+  {
+    "id": "q079",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many overs does each side face in a Twenty20 match?",
+    "keywords": [
+      "20 overs",
+      "twenty overs"
+    ]
+  },
+  {
+    "id": "q080",
+    "category": "numeric",
+    "answerable": true,
+    "question": "In which year was the first IPL season played?",
+    "keywords": [
+      "2008"
+    ]
+  },
+  {
+    "id": "q081",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many teams played in the inaugural IPL season?",
+    "keywords": [
+      "eight",
+      "2008"
+    ]
+  },
+  {
+    "id": "q082",
+    "category": "numeric",
+    "answerable": true,
+    "question": "What is the seating capacity of the Narendra Modi Stadium?",
+    "keywords": [
+      "132,000",
+      "capacity"
+    ]
+  },
+  {
+    "id": "q083",
+    "category": "numeric",
+    "answerable": true,
+    "question": "What is the approximate seating capacity of Eden Gardens?",
+    "keywords": [
+      "68,000",
+      "capacity",
+      "Eden Gardens"
+    ]
+  },
+  {
+    "id": "q084",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many teams qualify for the IPL playoffs?",
+    "keywords": [
+      "four",
+      "playoff"
+    ]
+  },
+  {
+    "id": "q085",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many overseas players may a team field in an IPL playing eleven?",
+    "keywords": [
+      "four",
+      "overseas"
+    ]
+  },
+  {
+    "id": "q086",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many new franchises were added to the IPL in 2011?",
+    "keywords": [
+      "Pune Warriors",
+      "Kochi Tuskers",
+      "2011"
+    ]
+  },
+  {
+    "id": "q087",
+    "category": "numeric",
+    "answerable": true,
+    "question": "What is Chris Gayle's highest individual score in the IPL?",
+    "keywords": [
+      "175"
+    ]
+  },
+  {
+    "id": "q088",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many IPL titles had the Kolkata Knight Riders won by 2024?",
+    "keywords": [
+      "three",
+      "Kolkata Knight Riders"
+    ]
+  },
+  {
+    "id": "q089",
+    "category": "numeric",
+    "answerable": true,
+    "question": "What is the seating capacity of the Wankhede Stadium?",
+    "keywords": [
+      "Wankhede",
+      "capacity",
+      "33,000"
+    ]
+  },
+  {
+    "id": "q090",
+    "category": "numeric",
+    "answerable": true,
+    "question": "How many franchises took part in the 2011 IPL season?",
+    "keywords": [
+      "ten",
+      "2011"
+    ]
+  },
+  {
+    "id": "q091",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which players will the Chennai Super Kings retain for the 2027 IPL auction?"
+  },
+  {
+    "id": "q092",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Who will win the Indian Premier League in 2028?"
+  },
+  {
+    "id": "q093",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which new franchises will be added to the IPL in 2030?"
+  },
+  {
+    "id": "q094",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What will the IPL salary cap be for the 2029 season?"
+  },
+  {
+    "id": "q095",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which overseas players will the Mumbai Indians target in the next mega auction?"
+  },
+  {
+    "id": "q096",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was Jasprit Bumrah's economy rate in powerplay overs during the 2022 IPL?"
+  },
+  {
+    "id": "q097",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was Virat Kohli's batting average against left-arm spin in the 2023 IPL?"
+  },
+  {
+    "id": "q098",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How many dot balls did Rashid Khan bowl during the 2024 IPL season?"
+  },
+  {
+    "id": "q099",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was MS Dhoni's strike rate in the final two overs of IPL matches in 2023?"
+  },
+  {
+    "id": "q100",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What percentage of Andre Russell's IPL sixes were hit off fast bowlers?"
+  },
+  {
+    "id": "q101",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was the average first-innings score at the Wankhede Stadium in the 2024 IPL?"
+  },
+  {
+    "id": "q102",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was MS Dhoni's salary negotiation strategy for the 2024 IPL auction?"
+  },
+  {
+    "id": "q103",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What did the Mumbai Indians squad discuss in the dressing room after the 2024 final?"
+  },
+  {
+    "id": "q104",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How do IPL franchises decide their bidding strategy before an auction?"
+  },
+  {
+    "id": "q105",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What is the internal scouting process used by the Kolkata Knight Riders?"
+  },
+  {
+    "id": "q106",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What did Virat Kohli say to his coach before the 2025 IPL final?"
+  },
+  {
+    "id": "q107",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was the ball-by-ball score in the final over of the 2019 IPL final?"
+  },
+  {
+    "id": "q108",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Who bowled the eighteenth over of the 2023 IPL final?"
+  },
+  {
+    "id": "q109",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What was the exact toss time of the 2024 IPL final?"
+  },
+  {
+    "id": "q110",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How many wide deliveries were bowled in Qualifier One of the 2025 IPL?"
+  },
+  {
+    "id": "q111",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What field placement was used for the last ball of the 2022 IPL final?"
+  },
+  {
+    "id": "q112",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which IPL franchise do analysts consider the best at scouting young talent?"
+  },
+  {
+    "id": "q113",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Is Chennai Super Kings a better-run franchise than the Delhi Capitals?"
+  },
+  {
+    "id": "q114",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which IPL captain has the best tactical mind according to analysts?"
+  },
+  {
+    "id": "q115",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What is general fan sentiment about IPL ticket prices?"
+  },
+  {
+    "id": "q116",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Who hit the fastest fifty in an IPL eliminator match?"
+  },
+  {
+    "id": "q117",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What is the record for the most catches taken by a substitute fielder in the IPL?"
+  },
+  {
+    "id": "q118",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Which bowler has the best figures in an IPL match played on a Tuesday?"
+  },
+  {
+    "id": "q119",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "Who has scored the most runs in IPL matches decided by a super over?"
+  },
+  {
+    "id": "q120",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What is the revenue sharing formula between IPL franchises and the BCCI?"
+  },
+  {
+    "id": "q121",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How much does each IPL franchise pay in annual support staff salaries?"
+  },
+  {
+    "id": "q122",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What are the confidential terms of the IPL title sponsorship contract?"
+  },
+  {
+    "id": "q123",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How much broadcast revenue did each IPL team receive in 2024?"
+  },
+  {
+    "id": "q124",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "What performance bonuses are written into individual IPL player contracts?"
+  },
+  {
+    "id": "q125",
+    "category": "near_miss",
+    "answerable": false,
+    "question": "How much did Royal Challengers Bengaluru spend on team travel in 2025?"
+  },
+  {
+    "id": "q126",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the boiling point of mercury?"
+  },
+  {
+    "id": "q127",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the capital of Mongolia?"
+  },
+  {
+    "id": "q128",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "How does photosynthesis work?"
+  },
+  {
+    "id": "q129",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "In what year was the transistor invented?"
+  },
+  {
+    "id": "q130",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the chemical formula for table salt?"
+  },
+  {
+    "id": "q131",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "Who wrote the novel Pride and Prejudice?"
+  },
+  {
+    "id": "q132",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "How do vaccines produce immunity?"
+  },
+  {
+    "id": "q133",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the tallest mountain in Africa?"
+  },
+  {
+    "id": "q134",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "How long does light take to travel from the Sun to the Earth?"
+  },
+  {
+    "id": "q135",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What causes the seasons on Earth?"
+  },
+  {
+    "id": "q136",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "Who painted the Mona Lisa?"
+  },
+  {
+    "id": "q137",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the largest planet in the Solar System?"
+  },
+  {
+    "id": "q138",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "How is sourdough bread made?"
+  },
+  {
+    "id": "q139",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the function of mitochondria in a cell?"
+  },
+  {
+    "id": "q140",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "Which is the longest river in South America?"
+  },
+  {
+    "id": "q141",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "What is the speed of sound in dry air at sea level?"
+  },
+  {
+    "id": "q142",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "Who developed the theory of general relativity?"
+  },
+  {
+    "id": "q143",
+    "category": "out_of_domain",
+    "answerable": false,
+    "question": "Which programming language was created by Guido van Rossum?"
+  },
+  {
+    "id": "q144",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What was the total match attendance across the 2023 IPL season?"
+  },
+  {
+    "id": "q145",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is Virat Kohli's batting strike rate in IPL finals?"
+  },
+  {
+    "id": "q146",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "How many sixes were hit in the 2024 IPL season?"
+  },
+  {
+    "id": "q147",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What was the highest television viewership figure recorded for an IPL match?"
+  },
+  {
+    "id": "q148",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is MS Dhoni's batting average in IPL playoff matches?"
+  },
+  {
+    "id": "q149",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "How many runs were scored in total across the 2025 IPL season?"
+  },
+  {
+    "id": "q150",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is the average attendance at Chennai Super Kings home matches?"
+  },
+  {
+    "id": "q151",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is Rohit Sharma's bowling average in the IPL?"
+  },
+  {
+    "id": "q152",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "How many catches has Suresh Raina taken in the IPL?"
+  },
+  {
+    "id": "q153",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is the highest successful run chase in IPL history?"
+  },
+  {
+    "id": "q154",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is the lowest total ever successfully defended in an IPL match?"
+  },
+  {
+    "id": "q155",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "How many players have scored an IPL century for the Mumbai Indians?"
+  },
+  {
+    "id": "q156",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is Jos Buttler's highest score in the IPL?"
+  },
+  {
+    "id": "q157",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is the win percentage of the Chennai Super Kings at their home ground?"
+  },
+  {
+    "id": "q158",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "How many maiden overs have been bowled in IPL history?"
+  },
+  {
+    "id": "q159",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What is the fastest century recorded in the IPL?"
+  },
+  {
+    "id": "q160",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "question": "What was the total prize money awarded in the 2024 IPL?"
+  }
+]

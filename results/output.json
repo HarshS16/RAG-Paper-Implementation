@@ -1,0 +1,3042 @@
+[
+  {
+    "id": "q001",
+    "query": "Who owns and organises the Indian Premier League?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.67194002866745,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Indian Premier League is owned and organised by the Board of Control for Cricket in India (BCCI).",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "The Indian Premier League is owned and organized by the Board of Control for Cricket in India (BCCI), the governing body for cricket in India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q002",
+    "query": "In which format of cricket is the Indian Premier League played?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7233882943789164,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Indian Premier League is played in the Twenty20 (T20) format of cricket.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Indian Premier League is played in the Twenty20 format, where each side bats for a maximum of 20 overs.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q003",
+    "query": "What is the Orange Cap awarded for in the IPL?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7860927780469259,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Orange Cap is awarded to the player who scores the most runs in an IPL season.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Orange Cap is awarded to the leading run‑scorer of an IPL season. It goes to the player who accumulates the most runs across all matches in that tournament. The cap is a prestigious individual accolade in the league.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q004",
+    "query": "What is the Purple Cap awarded for in the IPL?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.8150785366694132,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Purple Cap is awarded to the bowler who takes the most wickets in an IPL season.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Purple Cap is awarded to the bowler who takes the most wickets in a given IPL season. It is presented at the end of the tournament to the leading wicket‑taker. The award highlights the bowler’s impact on the competition.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q005",
+    "query": "In which year was the Indian Premier League founded?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6866817673047384,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Indian Premier League was founded in 2007, when the BCCI established the competition. Its first season was held in 2008.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Indian Premier League (IPL) was founded in 2008.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q006",
+    "query": "In which city are the Chennai Super Kings based?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7178808848063151,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "They are based in Chennai, Tamil Nadu.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Chennai Super Kings are based in Chennai, the capital city of Tamil Nadu in India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q007",
+    "query": "Which stadium is the home ground of the Mumbai Indians?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7587987581888834,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Mumbai Indians’ primary home ground is the Wankhede Stadium in South Mumbai.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Mumbai Indians play their home matches at Wankhede Stadium in Mumbai.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q008",
+    "query": "Which stadium is the home ground of Royal Challengers Bengaluru?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.68472953637441,
+    "abstain": false,
+    "hit@k": 0,
+    "rag_answer": "The home ground of Royal Challengers Bengaluru is the M. Chinnaswamy Stadium in Bangalore. It was formerly known as the Karnataka State Cricket Association Stadium before being renamed in tribute to M. Chinnaswamy.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "The Royal Challengers Bengaluru play their home matches at **M. Chinnaswamy Stadium** in Bangalore (Bengaluru). It is the primary venue for the franchise’s games in the Indian Premier League.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q009",
+    "query": "Which stadium is the home ground of the Kolkata Knight Riders?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6905963023503622,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The home ground of the Kolkata Knight Riders is Eden Gardens.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Kolkata Knight Riders’ home ground is Eden Gardens in Kolkata.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q010",
+    "query": "Which IPL franchise is based in Jaipur?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7102042436599731,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The IPL franchise based in Jaipur is the Rajasthan Royals.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The IPL franchise based in Jaipur is the **Rajasthan Royals**.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q011",
+    "query": "Which IPL franchise does Virat Kohli play for?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.669679601987203,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Virat Kohli plays for Royal Challengers Bangalore in the IPL. He has been the team's highest run‑scorer and has helped them win back‑to‑back titles, including the 2026 finals.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Virat Kohli plays for Royal Challengers Bangalore (RCB).  \nHe has been a key player for the franchise since 2008 and is one of its most recognizable faces.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q012",
+    "query": "Which IPL team did MS Dhoni captain?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6512175798416138,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "MS Dhoni captained the Chennai Super Kings (CSK) in the IPL.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "MS Dhoni captained the Chennai Super Kings (CSK) in the Indian Premier League. He led the team from 2008 to 2013 and again from 2018 to 2021, guiding them to multiple titles.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q013",
+    "query": "Which team won the first edition of the IPL in 2008?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6627701123555502,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Rajasthan Royals won the first edition of the IPL in 2008.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Rajasthan Royals won the inaugural Indian Premier League (IPL) in 2008.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q014",
+    "query": "Which team won the 2024 Indian Premier League?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6797604163487753,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Kolkata Knight Riders won the 2024 Indian Premier League, defeating Sunrisers Hyderabad by 8 wickets in the final.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Rajasthan Royals won the 2024 Indian Premier League.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q015",
+    "query": "Which team won the 2025 Indian Premier League?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6486940582593282,
+    "abstain": false,
+    "hit@k": 0,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 2.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Gujarat Titans won the 2025 Indian Premier League, defeating the Rajasthan Royals in the final.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q016",
+    "query": "Who captained the Rajasthan Royals in the 2008 IPL season?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6964878439903259,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Shane Warne captained the Rajasthan Royals during the inaugural 2008 IPL season.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q017",
+    "query": "Which two IPL franchises were suspended for two seasons in 2015?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7106555104255676,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The two franchises suspended were **Chennai Super Kings** and **Rajasthan Royals**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The two franchises suspended for the 2015 and 2016 seasons were the Rajasthan Royals and the Chennai Super Kings.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q018",
+    "query": "Which franchise took the place of Chennai Super Kings during their suspension?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7485511104265848,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The franchise that filled in for Chennai Super Kings during their suspension was the Rising Pune Supergiant.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q019",
+    "query": "What were the Delhi Capitals known as before 2019?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6254072586695353,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Before 2019 the franchise was known as the **Delhi Daredevils**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Before 2019, the Delhi Capitals were known as the Delhi Daredevils.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q020",
+    "query": "What were the Punjab Kings known as before 2021?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6138241092363993,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Before 2021, the franchise was known as **Kings XI Punjab**.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q021",
+    "query": "Which two teams joined the Indian Premier League in 2022?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6573336919148763,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The two new franchises that joined the Indian Premier League in 2022 are the Lucknow Super Giants and the Gujarat Titans.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The two new franchises that joined the Indian Premier League in 2022 were the Lucknow Super Giants and the Gujarat Titans.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q022",
+    "query": "Which team won the IPL in its debut season in 2022?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6674105127652487,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Gujarat Titans won the IPL in their debut season in 2022.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The Gujarat Titans won the IPL in their debut season in 2022.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q023",
+    "query": "Who captained the Gujarat Titans to the 2022 IPL title?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.700841228167216,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Hardik Pandya captained the Gujarat Titans to their maiden IPL title in 2022.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Hardik Pandya captained the Gujarat Titans to the 2022 IPL title.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q024",
+    "query": "Which country does the cricketer Rashid Khan represent?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.679055372873942,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Rashid Khan represents Afghanistan in international cricket.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Rashid Khan represents Afghanistan in international cricket.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q025",
+    "query": "Which IPL team does Andre Russell play for?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6712997754414877,
+    "abstain": false,
+    "hit@k": 0,
+    "rag_answer": "Andre Russell played for the Kolkata Knight Riders in the IPL.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Andre Russell plays for the Rajasthan Royals in the Indian Premier League. He was acquired by the Royals in the 2023 auction after stints with Chennai, Kolkata, RCB, Sunrisers and Delhi.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q026",
+    "query": "Which country does the batter Chris Gayle represent?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.5173932313919067,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chris Gayle represents the West Indies in international cricket.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q027",
+    "query": "In which Indian city is the Narendra Modi Stadium located?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.777005930741628,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Narendra Modi Stadium is located in Ahmedabad, Gujarat, India.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Narendra Modi Stadium is located in Ahmedabad, Gujarat, India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q028",
+    "query": "Which is the largest cricket stadium in the world by seating capacity?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6788215835889181,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The largest cricket stadium in the world by seating capacity is the Narendra Modi Stadium in Ahmedabad, Gujarat, India.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Narendra Modi Stadium in Ahmedabad, India, with a seating capacity of about 132,000, is the largest cricket stadium in the world.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q029",
+    "query": "Who is the owner of the Kolkata Knight Riders franchise?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6821637550989786,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Kolkata Knight Riders are owned by Shah Rukh Khan, actress Juhi Chawla and her husband Jay Mehta.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Kolkata Knight Riders are owned by Bollywood actor Shah Rukh Khan, his wife Gauri Khan, and her brother Ritesh Sidhwani.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q030",
+    "query": "Which IPL franchise is owned by Red Chillies Entertainment?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6629173358281454,
+    "abstain": false,
+    "hit@k": 0,
+    "rag_answer": "The IPL franchise owned by Red Chillies Entertainment is the **Lucknow Super Giants**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The IPL franchise owned by Red Chillies Entertainment is the **Kolkata Knight Riders**.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q031",
+    "query": "Which company originally owned the Royal Challengers Bangalore franchise?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6734947164853414,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The franchise was originally owned by United Spirits.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q032",
+    "query": "In which year was the Women's Premier League launched in India?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6820889115333557,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Women's Premier League was launched in India in 2022.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Women's Premier League (WPL) in India was launched in 2023.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q033",
+    "query": "What was the Indian Cricket League?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6963114539782206,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Indian Cricket League (ICL) was a short‑lived, privately run Twenty20 competition that operated from 2007 to 2009 and was sponsored by Zee Entertainment Enterprises. It featured two seasons with four international franchises and nine domestic teams from India, Pakistan and Bangladesh, and also ran a 50‑over tournament in early 2008. The league faced strong opposition from the BCCI and ICC, but each team was coached by former internationals and included a mix of international, Indian and domestic players.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 4.0
+    },
+    "baseline_answer": "The Indian Cricket League (ICL) was a private, franchise‑based cricket competition that ran from 2007 to 2009 in India. It was not sanctioned by the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC), leading to a ban on participating players and eventual dissolution. The ICL is remembered as a “rebel” league that briefly attracted top Indian and international cricketers before being shut down.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q034",
+    "query": "Which IPL franchise was formerly known as the Deccan Chargers?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.8240874608357748,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The franchise formerly known as the Deccan Chargers is the **Sunrisers Hyderabad**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The franchise formerly known as the Deccan Chargers is now the **Sunrisers Hyderabad**. After the 2012 season, the team was relocated to Hyderabad and rebranded under new ownership.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q035",
+    "query": "Which city do the Sunrisers Hyderabad represent?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6749390165011088,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Sunrisers Hyderabad represent the city of Hyderabad.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Sunrisers Hyderabad represent the city of Hyderabad in India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q036",
+    "query": "Which IPL team plays its home matches at the Arun Jaitley Stadium?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6834583083788554,
+    "abstain": false,
+    "hit@k": 0,
+    "rag_answer": "The Chennai Super Kings play their home matches at the Arun Jaitley Stadium.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The IPL team that plays its home matches at the Arun Jaitley Stadium is the **Delhi Capitals** (formerly Delhi Daredevils).",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q037",
+    "query": "Who holds the record for the highest individual score in an IPL innings?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7183124423027039,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The record for the highest individual score in an IPL innings is held by Chris Gayle, who scored 175 runs off 66 balls for Royal Challengers Bangalore against Pune Warriors in 2013.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The record for the highest individual score in an IPL innings is held by David Warner, who scored 175* for Sunrisers Hyderabad against Rajasthan Royals in 2019. This remains the top score in the tournament’s history.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q038",
+    "query": "Which bowler has taken the most wickets in IPL history?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7072943250338236,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Yuzvendra Chahal holds the record for the most wickets in IPL history, having taken 231 wickets.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The record for most wickets in IPL history is held by Sri Lankan fast bowler **Lasith Malinga**, who has taken **170 wickets** across 10 seasons. He surpassed all other bowlers in the league’s history.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q039",
+    "query": "What is Jasprit Bumrah's bowling style?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.7170993288358053,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Jasprit Bumrah is a right‑arm fast bowler whose short, stuttering run‑up and hyper‑extended elbow give him a stiff‑armed, high‑pace action. He bowls at speeds around 141 km/h, delivering yorkers, short‑length balls and swing both ways, often using reverse swing in Indian conditions. His unusual point of release makes it difficult for batters to read his deliveries.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Jasprit Bumrah is a right‑arm fast bowler who bowls at speeds around 140 km/h.  \nHe uses a short run‑up and a high‑arm action, delivering a mix of swing, seam movement and lethal yorkers.  \nHis distinctive wrist position and ability to vary pace make him a potent death‑over specialist.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q040",
+    "query": "Which IPL team did David Warner captain to a title?",
+    "category": "factual",
+    "answerable": true,
+    "confidence": 0.6131932934125265,
+    "abstain": true,
+    "hit@k": 0,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "David Warner captained the Chennai Super Kings to the 2018 IPL title.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q041",
+    "query": "Why were the Chennai Super Kings suspended from the IPL?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.7395112911860148,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Chennai Super Kings were suspended because their owners were found to be involved in illegal betting and spot‑fixing during the 2013 IPL season.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chennai Super Kings were suspended for two seasons (2015‑2016) after the Board of Control for Cricket in India found them guilty of involvement in the 2013 IPL betting and match‑fixing scandal. The team was accused of accepting bribes to influence match outcomes, leading to a ban and a fine. The suspension was part of a broader crackdown on corruption in Indian cricket.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q042",
+    "query": "Why is MS Dhoni regarded as one of the most successful captains in IPL history?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.658988336722056,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "MS Dhoni is regarded as one of the most successful IPL captains because he led the Chennai Super Kings to three titles (2010, 2011, 2018) and guided them to a record‑setting four consecutive finals, the most by any captain. His calm, data‑driven decision‑making—especially in high‑pressure chase situations—earned him a reputation for finishing games and consistently turning matches in his team’s favor. Dhoni’s leadership style, blending tactical acumen with strong player management, has made him the most decorated and respected captain in IPL history.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q043",
+    "query": "Why was the 2009 IPL season held in South Africa?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6528087655703226,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The 2009 IPL season was moved to South Africa because the Indian government refused to provide security, citing that central forces would be needed for the general elections. Consequently, the BCCI shifted the tournament to South Africa.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The 2009 IPL season was moved to South Africa because of heightened security concerns in India after the 2008 Mumbai attacks, prompting the BCCI to seek a safer venue. The tournament was held in South Africa to ensure the safety of players, officials, and fans. It was the first time the IPL was played outside India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q044",
+    "query": "Why was part of the 2014 IPL season played in the United Arab Emirates?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6439876159032186,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Part of the 2014 IPL season was played in the UAE because the Indian government declined to provide security for the tournament, citing that central security forces would be needed for the general elections. As a result, the opening 20 matches were relocated to the UAE, with the tournament returning to India on 2 May 2014.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Part of the 2014 IPL season was moved to the UAE because the BCCI decided to relocate matches for security reasons after the 2013 Mumbai terrorist attacks, ensuring the safety of players, officials and fans. The league played 10 matches in Sharjah, Abu Dhabi and Dubai, while the remaining games were held in India.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q045",
+    "query": "How does the IPL player auction work?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.8067856033643087,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The IPL auction is held in the winter during the off‑season; players who are not retained or who were unattached can register, set a base price, and then compete for the highest bid from franchises. The winning bid becomes that player’s salary for the season and is deducted from the team’s salary cap, while any unsold players may be signed as replacements for injured or unavailable players. Prior to the auction teams may retain a limited number of players, whose salaries are also taken out of the cap, and every three years a “mega auction” forces teams to release most of their squad and retain only a few players to maintain parity.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "In the IPL auction, registered players are listed with a base price and teams submit sealed bids for each player; the highest bid wins the player’s contract. The auction proceeds in rounds, with teams allowed to bid on multiple players, and a player can be sold only if the bid meets or exceeds the base price. Once a player is sold, the winning team pays the bid amount to the league, and the player’s contract is awarded to that team.",
+    "baseline_scores": {
+      "relevance": 4.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q046",
+    "query": "How are the IPL playoffs structured?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6952666640281677,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "IPL playoffs use a Page‑playoff format.  \nThe 1st‑ and 2nd‑placed teams play; the winner goes straight to the final.  \nThe 3rd‑ and 4th‑placed teams play an eliminator; the loser is out.  \nThe winner of that match then faces the loser of the 1st‑vs‑2nd match to earn the second spot in the final.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The IPL playoffs feature the top four teams: the first‑ and second‑placed teams play Qualifier 1, while the third‑ and fourth‑placed teams play the Eliminator. The winner of Qualifier 1 advances directly to the Final, and the loser of Qualifier 1 faces the Eliminator winner in Qualifier 2. The winner of Qualifier 2 then meets the Qualifier 1 winner in the Final.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q047",
+    "query": "Why did the IPL expand to ten teams in 2022?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6512369910875956,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The IPL expanded to ten teams in 2022 because the BCCI announced that two new franchises would join the league that season. In a closed bidding process, the RPSG Group and CVC Capital secured the rights to the new teams, paying ₹7,000 crore and ₹5,200 crore respectively. This expansion was aimed at increasing the league’s market reach, competitiveness and revenue.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "The IPL expanded to ten teams in 2022 to boost competition, revenue, and fan engagement by adding new franchises such as Lucknow Super Giants and Gujarat Titans. This move helped the league tap into new markets and increase the value of broadcast rights. It also allowed the BCCI to maintain a balanced schedule and provide more opportunities for players and sponsors.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q048",
+    "query": "How does the player retention system affect which players enter the IPL auction?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.757088283697764,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The retention rule removes the retained players from the auction pool; they stay with their current franchise and their salaries are deducted from the cap. Only players who are not retained and those who were not attached to a team in the previous season are eligible to register and bid in the auction. Thus, the retention list directly determines which players are excluded from auction participation.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The retention system lets each IPL franchise keep a set number of players (up to five, with a maximum of three from the previous season) before the auction, so those retained are removed from the auction pool. Consequently, only the players not retained are eligible to be bid on, which shapes the auction’s talent mix and can influence a team’s strategy for filling gaps. This mechanism also limits the number of high‑profile or expensive players that can enter the auction each year.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q049",
+    "query": "Why was the Indian Cricket League regarded as a rebel league?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6219423413276672,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The ICL was deemed a rebel league because it operated without recognition from the BCCI or ICC, and the BCCI viewed its participation as a challenge to its authority. Consequently, the BCCI banned players who joined the ICL and imposed lifetime bans on those involved, labeling the league as a rebel venture.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Indian Cricket League (ICL) was called a rebel league because it operated without the approval of the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC). It lured top Indian players with lucrative contracts, leading the BCCI to ban those who joined and to refuse recognition of the league’s matches. Consequently, the ICL was viewed as an unsanctioned, competing entity that threatened the established cricketing structure in India.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 4.0
+    }
+  },
+  {
+    "id": "q050",
+    "query": "How did the 2020 IPL season differ from earlier seasons?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6327966650327047,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The 2020 IPL introduced several new rules: players could no longer use saliva to shine the ball, all matches were played behind closed doors, captains did not shake hands after the toss, front‑foot no‑balls were judged by the third umpire, teams could replace a player who tested positive for COVID‑19, and a tied Super Over would trigger additional Super Overs until a winner emerged.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The 2020 IPL season was played entirely in a bio‑secure bubble in the UAE with no live crowds, a first for the league. The schedule was compressed into 60 days, and the tournament format was altered to a double‑round robin followed by a playoff stage instead of the usual group stage and playoffs. Additionally, the season saw the introduction of a new “IPL 2020” branding and a revised points system to accommodate the condensed format.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q051",
+    "query": "How did the Gujarat Titans perform in their first IPL season?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6959647536277771,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "In their debut IPL season (2022), the Gujarat Titans won 10 of 14 group matches, finished first in the table with 20 points, and then secured a victory in the first qualifier.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "In their debut 2022 IPL campaign, the Gujarat Titans finished second in the league stage, winning 10 of 14 matches. They advanced to the final, where they were defeated by the Rajasthan Royals. Overall, the franchise ended the season as runners‑up, a strong showing for a new team.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q052",
+    "query": "How did Rising Pune Supergiant come to play in the IPL?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.7332855463027954,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Rising Pune Supergiant entered the IPL as a two‑season replacement franchise for the suspended Chennai Super Kings and Rajasthan Royals, playing in 2016 and 2017. The team was based in Pune, Maharashtra, and competed in the league during those seasons before being disbanded.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Rising Pune Supergiant was created when the BCCI awarded a new franchise licence for the 2016 IPL season after the Pune Warriors India were terminated. The new owners, a consortium led by the same group that had run the Warriors, formed the team and entered the league as a replacement franchise. They competed in the 2016 and 2017 seasons before the franchise was sold and rebranded.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 2.0
+    }
+  },
+  {
+    "id": "q053",
+    "query": "Why is the Indian Premier League considered commercially significant?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.5930870374043783,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Indian Premier League (IPL) is commercially significant because it generates record‑breaking broadcast and sponsorship revenues, with rights deals that dwarf those of most other cricket leagues worldwide. Its franchise model attracts global investors and star players, creating a high‑profile, year‑round product that drives merchandise, ticket sales, and digital engagement. The league’s massive domestic and international viewership turns it into a lucrative platform for advertisers, making it a cornerstone of the sports entertainment economy.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q054",
+    "query": "How is the winner of the Orange Cap determined over a season?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6243743101755778,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Orange Cap is awarded to the player who scores the most runs during the entire IPL season. The current leader wears the cap on the field until the final match, and the player with the highest aggregate at the end of the season keeps the cap for that season.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Orange Cap goes to the player who scores the most runs in the IPL season. If two players finish with identical totals, the one with more boundaries (fours + sixes) wins; if still tied, the player who has played more matches is awarded the cap.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q055",
+    "query": "Why do IPL franchises operate under a salary cap?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6575604279836019,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "IPL franchises operate under a salary cap to keep the competition financially balanced and prevent wealthier teams from outspending rivals, ensuring a level playing field. The cap—₹120 crore for 2025 with a 75 % minimum spend—forces teams to budget their squads carefully while still investing enough to field competitive sides. This structure also helps the league manage overall revenue distribution, as IPL players receive a smaller share (18 %) compared to other major leagues.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "IPL franchises operate under a salary cap to keep the competition balanced and prevent wealthier teams from monopolising top talent. It also ensures financial sustainability by limiting how much teams can spend on player salaries, protecting the league’s overall economic health. The cap promotes fairness and excitement, making the tournament more unpredictable and engaging for fans.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q056",
+    "query": "How are overseas players restricted in an IPL playing eleven?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6124631961186727,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "In the IPL a team may name no more than four overseas players in its playing eleven, and must include at least three Indian players. This rule guarantees that at least eight of the eleven are Indian. The restriction is enforced by the BCCI and the IPL governing council.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q057",
+    "query": "Why did the Deccan Chargers franchise cease to exist?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6921285192171732,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Deccan Chargers ceased to exist because the owners faced financial difficulties and could not secure a buyer; the auction on 13 September 2012 ended with no accepted bid, leading the franchise agreement to be terminated in September 2012.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Deccan Chargers were terminated by the IPL after the 2012 season because they failed to meet the franchise fee and other financial obligations, leading to a breach of the league’s contractual requirements. Their owners were unable to secure the necessary funding, so the franchise was sold and re‑branded as Sunrisers Hyderabad.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q058",
+    "query": "How did Virat Kohli's IPL career with Royal Challengers develop?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6461373964945475,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Virat Kohli was bought by Royal Challengers Bangalore in the inaugural 2008 IPL for $50,000, where he struggled at first—scoring only 165 runs that season and briefly moving up the order before returning to the middle. Over the years he evolved into a key batsman for the franchise, eventually becoming the highest run‑scorer and earning Player‑of‑the‑Match honors in the 2026 finals as RCB won back‑to‑back titles. His journey from a shaky rookie to a pivotal leader illustrates a steady rise in performance and influence within the team.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Virat Kohli debuted for Royal Challengers Bangalore in 2011 and quickly became a linchpin of the batting lineup. He was appointed captain in 2013, leading the team to the IPL final in 2013, 2016, 2018, 2021, 2022, and 2023, and amassed over 5,000 runs with four centuries in the tournament. His tenure ended in 2023 when he was replaced as captain, but he remains one of the franchise’s most prolific and influential players.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q059",
+    "query": "Why was the 2021 IPL season suspended midway through?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6579122145970663,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The 2021 IPL season was halted midway because a COVID‑19 outbreak was detected among the Delhi Capitals squad, prompting the BCCI to suspend play to prevent further spread. The league was paused for a few weeks, after which it resumed with strict bio‑security protocols.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q060",
+    "query": "How did the Mumbai Indians build their record of IPL success?",
+    "category": "reasoning",
+    "answerable": true,
+    "confidence": 0.6308658321698507,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Mumbai Indians built their record of IPL success by consistently dominating the league, finishing at the top of the table and converting that into titles—most notably their 2020 campaign where they topped the standings and beat Delhi Capitals in the final to win a fifth championship and become only the second team to defend an IPL title. Their success has been underpinned by a historically strong bowling attack that excelled at defending low totals, and in recent years they have evolved into a formidable batting side, further cementing their status as the most successful franchise in IPL history.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Mumbai Indians built their IPL record through a blend of astute franchise management, a core group of consistent performers, and a willingness to invest in overseas talent and specialist coaches. They cultivated a culture of resilience and adaptability, using data analytics to fine‑tune strategies and nurture young Indian players. This combination of stability, strategic recruitment, and a winning mindset has kept them at the top of the league for years.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q061",
+    "query": "Which team has won more IPL titles, the Chennai Super Kings or the Mumbai Indians?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.707813044389089,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Both teams have won the same number of IPL titles.  \nChennai Super Kings and Mumbai Indians each have five championships.  \nThus neither has more titles than the other.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q062",
+    "query": "Who has scored more runs in the IPL, Virat Kohli or Rohit Sharma?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6293806433677673,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q063",
+    "query": "Which stadium has the larger seating capacity, Eden Gardens or the Wankhede Stadium?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.5886404514312744,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Eden Gardens has the larger capacity. It can seat about 66,000 spectators, whereas Wankhede Stadium holds roughly 33,000. Thus Eden Gardens is the bigger of the two.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q064",
+    "query": "Which competition was established first, the Indian Premier League or the Indian Cricket League?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6419174671173096,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The Indian Cricket League (ICL) was established first, launching in 2007. The Indian Premier League (IPL) followed a year later, beginning in 2008.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q065",
+    "query": "Which franchise joined the IPL later, the Gujarat Titans or the Sunrisers Hyderabad?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.7177961270014445,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Gujarat Titans joined the IPL later.  \nSunrisers Hyderabad debuted in the 2013 season, while Gujarat Titans entered the league in 2022.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Gujarat Titans joined the IPL later. They were introduced in 2022, whereas Sunrisers Hyderabad have been part of the league since its inception in 2008.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q066",
+    "query": "How do the Chennai Super Kings and Royal Challengers Bengaluru compare in IPL titles won?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.7002787788709005,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Chennai Super Kings have won five IPL titles, the joint‑most in the tournament.  \nRoyal Challengers Bengaluru have secured two titles, both in consecutive seasons (2025 and 2026).  \nThus, Chennai leads RCB by three titles.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chennai Super Kings have won three IPL titles (2008, 2011, 2013), making them one of the most successful franchises. Royal Challengers Bengaluru have yet to secure an IPL championship. Thus, CSK leads RCB by a substantial margin in terms of titles won.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q067",
+    "query": "Which venue is larger, the Narendra Modi Stadium or the M. Chinnaswamy Stadium?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6967044472694397,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Narendra Modi Stadium is larger. It has a capacity of 132,000, making it the world’s largest cricket stadium, whereas M. Chinnaswamy Stadium’s capacity is far smaller.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "The Narendra Modi Stadium in Ahmedabad is larger, with a seating capacity of around 132,000 (officially 110,000).  \nM. Chinnaswamy Stadium in Bangalore seats about 25,000, making it significantly smaller.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q068",
+    "query": "Which franchise has the longer unbroken IPL history, the Rajasthan Royals or the Lucknow Super Giants?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.620919386545817,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Rajasthan Royals. They have been part of the IPL since its inception in 2008, whereas Lucknow Super Giants joined only in 2023.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "Rajasthan Royals.  \nThey have competed in every IPL season since the league’s inception in 2008, whereas Lucknow Super Giants joined only in 2023. Thus RR’s unbroken IPL history is longer.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q069",
+    "query": "Which tournament is longer established, the Indian Premier League or the Women's Premier League?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6993252436319987,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Indian Premier League is longer established. It has been running for 19 seasons as of 2026, whereas the Women’s Premier League was founded in 2022 and has completed only four seasons by 2026.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Indian Premier League (IPL) is the longer‑established tournament, having begun in 2008.  \nThe Women’s Premier League (WPL) started much later, in 2023.  \nThus, the IPL predates the WPL by 15 years.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q070",
+    "query": "Which team has won the IPL more recently, the Kolkata Knight Riders or the Mumbai Indians?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.7011336386203766,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Kolkata Knight Riders have the edge in recent head‑to‑head results, beating Mumbai Indians in all matches during the 2022 and 2024 seasons. This shows that KKR has won the IPL more recently than Mumbai Indians.",
+    "rag_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "Mumbai Indians have won the IPL more recently, taking the title in 2022, while Kolkata Knight Riders last claimed the championship in 2014.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q071",
+    "query": "Which is the shorter format, Twenty20 or One Day International cricket?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6843038201332092,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Twenty20 is the shorter format.  \nA Twenty20 match has only 20 overs per innings (about 3 hours total), whereas a One Day International allows 50 overs per innings and lasts roughly 7–8 hours.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "Twenty20 is the shorter format.  \nIn a Twenty20 match each side plays 20 overs, usually finished in about 3–4 hours, whereas a One Day International has 50 overs per side and takes roughly 7–8 hours.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q072",
+    "query": "Which of these franchises has changed its name, the Delhi Capitals or the Chennai Super Kings?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6777343352635702,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The franchise that has changed its name is the Delhi Capitals (formerly Delhi Daredevils). Chennai Super Kings have kept the same name since their inception.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Delhi Capitals has changed its name (from Delhi Daredevils). Chennai Super Kings has not.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q073",
+    "query": "Who has captained more IPL franchises, MS Dhoni or Rohit Sharma?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6133210261662801,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Both have captained two IPL franchises each.  \nMS Dhoni led Chennai Super Kings and was named captain of Rajasthan Royals (though he didn’t play), while Rohit Sharma captained Mumbai Indians and later Rajasthan Royals.  \nSo neither has captained more franchises.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q074",
+    "query": "Which player is the more prolific IPL wicket-taker, Yuzvendra Chahal or Bhuvneshwar Kumar?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6210279862085978,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "Yuzvendra Chahal is the more prolific IPL wicket‑taker. He has taken over 140 wickets in the league, surpassing Bhuvneshwar Kumar’s tally of around 120 wickets.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q075",
+    "query": "Which city has hosted more IPL finals, Chennai or Ahmedabad?",
+    "category": "comparative",
+    "answerable": true,
+    "confidence": 0.6879207889238993,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Chennai has hosted more IPL finals. It has been the venue for three finals (2011, 2012, and the most recent), whereas Ahmedabad has only hosted playoff matches but not a final.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q076",
+    "query": "How many teams competed in the 2025 Indian Premier League?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6559375921885172,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The 2025 Indian Premier League featured 10 teams competing in the tournament.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The 2025 Indian Premier League featured **10 teams** competing in the tournament.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q077",
+    "query": "How many IPL titles have the Mumbai Indians won?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6831379234790802,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Mumbai Indians have won five IPL titles.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Mumbai Indians have won five IPL titles, in 2013, 2015, 2017, 2019, and 2020.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q078",
+    "query": "How many IPL titles have the Chennai Super Kings won?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.701639195283254,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Chennai Super Kings have won five IPL titles.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chennai Super Kings have won five IPL titles, coming in 2010, 2011, 2018, 2021 and 2023.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q079",
+    "query": "How many overs does each side face in a Twenty20 match?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.735193928082784,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Each side faces a maximum of 20 overs in a Twenty20 match.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Each side is allotted 20 overs in a Twenty20 match. This means each team bats for a maximum of 20 overs, unless all wickets fall earlier. The format is designed to keep the game short and fast‑paced.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q080",
+    "query": "In which year was the first IPL season played?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.633092999458313,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The first Indian Premier League season was played in 2008.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The first IPL season was played in 2008.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q081",
+    "query": "How many teams played in the inaugural IPL season?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6751605272293091,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The inaugural season of the IPL featured five teams.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The inaugural IPL season in 2008 featured eight teams.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q082",
+    "query": "What is the seating capacity of the Narendra Modi Stadium?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.7145584026972452,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Narendra Modi Stadium has a seating capacity of **132,000**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Narendra Modi Stadium in Ahmedabad can seat about **132,000 spectators**. It is the largest cricket stadium in the world by capacity. The figure is based on its fully‑covered, all‑seated configuration.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q083",
+    "query": "What is the approximate seating capacity of Eden Gardens?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.5792579452196757,
+    "abstain": true,
+    "hit@k": 1,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Eden Gardens in Kolkata, India, can seat roughly 66,000 to 68,000 spectators.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q084",
+    "query": "How many teams qualify for the IPL playoffs?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6771408319473267,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Four teams qualify for the IPL playoffs.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Four teams qualify for the IPL playoffs.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q085",
+    "query": "How many overseas players may a team field in an IPL playing eleven?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6391360362370809,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "A team may field up to **four overseas players** in its playing eleven. However, if an overseas player is designated as an impact player, the limit drops to **three overseas players**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "A team may include up to **four overseas players** in its playing XI. This limit is enforced to promote domestic talent and maintain competitive balance. Thus, the maximum number of overseas players allowed on the field is four.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q086",
+    "query": "How many new franchises were added to the IPL in 2011?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6713318824768066,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Two new franchises were added to the IPL in 2011: the Kochi Tuskers and the Pune Warriors.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Two new franchises were added to the IPL in 2011: Pune Warriors India and Kochi Tuskers Kerala.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q087",
+    "query": "What is Chris Gayle's highest individual score in the IPL?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.7078975240389506,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "Chris Gayle’s highest individual score in the IPL is 175 not out, which he made for Royal Challengers Bangalore against Pune Warriors India.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chris Gayle’s highest individual score in the IPL is 100 not out.  \nHe reached the century while playing for Royal Challengers Bangalore in 2013, against Kings XI Punjab.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q088",
+    "query": "How many IPL titles had the Kolkata Knight Riders won by 2024?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6817318995793661,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "By 2024, the Kolkata Knight Riders had secured three IPL titles.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "By 2024, the Kolkata Knight Riders had won two IPL titles, securing the championship in 2012 and again in 2014.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q089",
+    "query": "What is the seating capacity of the Wankhede Stadium?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.638813853263855,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The Wankhede Stadium’s seating capacity is 33,108 after the 2011 renovations.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Wankhede Stadium in Mumbai has a seating capacity of about 33,000 spectators.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q090",
+    "query": "How many franchises took part in the 2011 IPL season?",
+    "category": "numeric",
+    "answerable": true,
+    "confidence": 0.6423850854237875,
+    "abstain": false,
+    "hit@k": 1,
+    "rag_answer": "The 2011 IPL season featured ten franchises. Two new teams—Kochi Tuskers and Pune Warriors—joined the existing eight, bringing the total to ten.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Eight franchises took part in the 2011 Indian Premier League season. The teams were the Chennai Super Kings, Delhi Daredevils, Kings XI Punjab, Kolkata Knight Riders, Mumbai Indians, Rajasthan Royals, Royal Challengers Bangalore, and Sunrisers Hyderabad.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q091",
+    "query": "Which players will the Chennai Super Kings retain for the 2027 IPL auction?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.7036593755086263,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Chennai Super Kings will retain Rohit Sharma, Suryakumar Yadav, Hardik Pandya, MS Dhoni, Ravindra Jadeja and Shardul Thakur for the 2027 IPL auction.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q092",
+    "query": "Who will win the Indian Premier League in 2028?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6280670563379923,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 3.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "I’m sorry, but I can’t predict future events.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q093",
+    "query": "Which new franchises will be added to the IPL in 2030?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6623850067456564,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The IPL will add franchises from the United Arab Emirates and the United Kingdom in 2030.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q094",
+    "query": "What will the IPL salary cap be for the 2029 season?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6684415340423584,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The IPL salary cap for the 2029 season has not yet been announced by the Board of Control for Cricket in India.  Based on the trend of annual increases—₹140 cr in 2023, ₹150 cr in 2024, and ₹160 cr in 2025—it is likely to be in the ₹190–₹210 cr range.  Until an official statement is released, any figure remains an estimate.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q095",
+    "query": "Which overseas players will the Mumbai Indians target in the next mega auction?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6248897314071655,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "Mumbai Indians are expected to go after overseas stars David Warner, Chris Gayle and Ben Stokes in the next mega auction.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q096",
+    "query": "What was Jasprit Bumrah's economy rate in powerplay overs during the 2022 IPL?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6478618184725443,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "During the 2022 IPL, Jasprit Bumrah’s economy rate in powerplay overs was 5.00. He bowled 4 overs in the powerplay across five matches, conceding 20 runs in total.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q097",
+    "query": "What was Virat Kohli's batting average against left-arm spin in the 2023 IPL?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5880913138389587,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "In the 2023 IPL, Virat Kohli averaged 50.5 runs per dismissal against left‑arm spin bowlers. He scored 600 runs in 14 innings while facing left‑arm spinners, making this the highest average among top batsmen against that bowling style that season.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q098",
+    "query": "How many dot balls did Rashid Khan bowl during the 2024 IPL season?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5880335172017416,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "I don’t have that information.",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q099",
+    "query": "What was MS Dhoni's strike rate in the final two overs of IPL matches in 2023?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.59438689549764,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q100",
+    "query": "What percentage of Andre Russell's IPL sixes were hit off fast bowlers?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5465634862581888,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "About one‑third of his IPL sixes – roughly 30 % – were struck off fast bowlers.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q101",
+    "query": "What was the average first-innings score at the Wankhede Stadium in the 2024 IPL?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6664703090985616,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 2.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The average first‑innings score at Wankhede Stadium during the 2024 IPL was 155 runs.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q102",
+    "query": "What was MS Dhoni's salary negotiation strategy for the 2024 IPL auction?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5475704272588094,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q103",
+    "query": "What did the Mumbai Indians squad discuss in the dressing room after the 2024 final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5305958986282349,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q104",
+    "query": "How do IPL franchises decide their bidding strategy before an auction?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6740625103314718,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "Franchises first submit a retention list, which removes those players’ salaries from the team’s ₹120 crore cap and frees up budget for the auction. They then assess the shortlisted players’ base prices, roles needed in the squad, and the overall market demand to set a realistic bid ceiling. By balancing retained talent, cap space, and the auction purse, teams craft a bidding strategy that targets key gaps while staying within budget.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    },
+    "baseline_answer": "IPL franchises craft their auction strategy by first assessing their squad’s gaps and strengths, then setting a budget ceiling and target price ranges for each role. They use data analytics and past performance to rank players, balancing star power with cost‑effective picks while ensuring compliance with the salary cap and team balance rules. Finally, they simulate different bidding scenarios to decide when to bid aggressively, hold back, or trade players to stay within budget and maximize on‑field performance.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 3.0
+    }
+  },
+  {
+    "id": "q105",
+    "query": "What is the internal scouting process used by the Kolkata Knight Riders?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.4622780978679657,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Kolkata Knight Riders run a multi‑stage scouting pipeline that starts with a network of regional scouts who track domestic and international matches, feeding performance data and video clips into a central database. The scouting team then compiles a shortlist of prospects, which the coaching staff reviews during trial camps and fitness assessments before finalising contracts. Throughout the process, KKR emphasizes youth development through its academy, ensuring a steady pipeline of emerging talent.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q106",
+    "query": "What did Virat Kohli say to his coach before the 2025 IPL final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5728338162104288,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "He told his coach to stay calm, trust the game plan, and focus on the team’s strengths rather than the pressure of the moment.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q107",
+    "query": "What was the ball-by-ball score in the final over of the 2019 IPL final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5955607096354166,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q108",
+    "query": "Who bowled the eighteenth over of the 2023 IPL final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6161942481994629,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The eighteenth over of the 2023 IPL final was bowled by Hardik Pandya.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q109",
+    "query": "What was the exact toss time of the 2024 IPL final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5760182738304138,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The toss for the 2024 IPL final was conducted at **12:00 pm Indian Standard Time (12:00 pm IST)** on 29 May 2024.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q110",
+    "query": "How many wide deliveries were bowled in Qualifier One of the 2025 IPL?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5618219375610352,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "I’m sorry, but I don’t have that information.",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q111",
+    "query": "What field placement was used for the last ball of the 2022 IPL final?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6340380509694418,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q112",
+    "query": "Which IPL franchise do analysts consider the best at scouting young talent?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5634914437929789,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Analysts often point to the Mumbai Indians as the IPL franchise best at scouting and nurturing young talent. Their academy and scouting network consistently spot promising players early, turning them into key contributors for the team.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q113",
+    "query": "Is Chennai Super Kings a better-run franchise than the Delhi Capitals?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6197145382563273,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Yes, Chennai Super Kings is generally regarded as a better‑run franchise. Their stable ownership, consistent performance, and strong brand loyalty give them a clear advantage over Delhi Capitals, which has experienced more frequent coaching changes and a less cohesive strategy. This stability has translated into a more reliable and profitable operation for CSK.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 2.0
+    }
+  },
+  {
+    "id": "q114",
+    "query": "Which IPL captain has the best tactical mind according to analysts?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6106637716293335,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "MS Dhoni is widely regarded by analysts as the IPL captain with the best tactical mind.  His calm decision‑making, sharp field placements and knack for adapting strategies mid‑game consistently give his teams a competitive edge.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q115",
+    "query": "What is general fan sentiment about IPL ticket prices?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5904537439346313,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Fans generally feel that IPL ticket prices are on the higher side, especially for marquee matches, and many see them as a barrier to attending games in person. While some argue the cost reflects the quality of production and star players, a large portion of the fan base expresses frustration and calls for more affordable options or better value‑for‑money packages. Overall, the sentiment leans toward a desire for lower prices or more flexible ticketing schemes.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q116",
+    "query": "Who hit the fastest fifty in an IPL eliminator match?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6449813842773438,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Riyan Parag hit the fastest fifty in an IPL eliminator, scoring 50 off just 41 balls for Rajasthan Royals against Delhi Capitals in the 2022 playoffs. His rapid knock helped set a competitive total and remains the quickest fifty recorded in an IPL eliminator match.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q117",
+    "query": "What is the record for the most catches taken by a substitute fielder in the IPL?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6656817595163981,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "The highest number of catches taken by a substitute fielder in a single IPL match is **three**.  \nThis record was set by **Sandeep Sharma** of Delhi Capitals during the 2019 season.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q118",
+    "query": "Which bowler has the best figures in an IPL match played on a Tuesday?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6423656741778055,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The best bowling figures in an IPL match that took place on a Tuesday belong to **Axar Patel**, who took 11 wickets for 70 runs in the India v England game on 13 February 2021.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q119",
+    "query": "Who has scored the most runs in IPL matches decided by a super over?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6642979184786478,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q120",
+    "query": "What is the revenue sharing formula between IPL franchises and the BCCI?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6723475257555643,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The BCCI shares 80 % of competition profits with franchises for the first five seasons, 60 % for seasons 6‑10, and 50 % for seasons 11‑15. In addition, 80 % of the central licensing‑rights revenue is distributed to the franchises, while franchises also earn from merchandise, ticket sales and advertising.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The revenue sharing formula is that the BCCI retains 70 % of all IPL revenue, while the franchises receive the remaining 30 %. This split applies to every revenue stream, including broadcasting rights, sponsorships, and ticket sales.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q121",
+    "query": "How much does each IPL franchise pay in annual support staff salaries?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6041434208552042,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Support staff salaries for IPL franchises typically range from ₹10 crore to ₹15 crore per year, depending on the club’s budget and size.  \nThe larger, more established teams such as Mumbai Indians and Chennai Super Kings tend to pay on the higher end of that spectrum, while newer or smaller clubs may spend closer to ₹8–10 crore.  \nThese figures cover coaching staff, physiotherapists, analysts, and other support personnel.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q122",
+    "query": "What are the confidential terms of the IPL title sponsorship contract?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5982297460238138,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "I’m sorry, but I can’t help with that.",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q123",
+    "query": "How much broadcast revenue did each IPL team receive in 2024?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.7151391903559366,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q124",
+    "query": "What performance bonuses are written into individual IPL player contracts?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.6187322735786438,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Individual IPL contracts usually contain performance bonuses for wickets taken, runs scored, catches, stumpings, and match‑winning contributions, with specific thresholds (e.g., 5 wickets in a match, 50 runs, or a hat‑trick) triggering a pre‑agreed payout. They also often include season‑long milestones such as 50 wickets or 500 runs, and for being named Man of the Match or achieving a low economy rate. The exact figures and conditions are negotiated between the player and the franchise and can vary widely from one contract to another.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q125",
+    "query": "How much did Royal Challengers Bengaluru spend on team travel in 2025?",
+    "category": "near_miss",
+    "answerable": false,
+    "confidence": 0.5706395904223124,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "I’m sorry, but I don’t have that information.",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q126",
+    "query": "What is the boiling point of mercury?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.1350158949693044,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Mercury boils at 356.73 °C (674.07 °F) at standard atmospheric pressure.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q127",
+    "query": "What is the capital of Mongolia?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.33566391468048096,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Answer: The capital of Mongolia is Ulaanbaatar.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q128",
+    "query": "How does photosynthesis work?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.17490935822327933,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Photosynthesis converts light energy into chemical energy by using chlorophyll in plant cells to capture photons. The absorbed light drives the splitting of water molecules, releasing oxygen and providing electrons that reduce carbon dioxide into glucose through the Calvin cycle. The resulting glucose stores energy that the plant can use for growth, while oxygen is released into the atmosphere.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q129",
+    "query": "In what year was the transistor invented?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.23727292815844217,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The transistor was invented in 1947 by John Bardeen, Walter Brattain, and William Shockley at Bell Labs.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q130",
+    "query": "What is the chemical formula for table salt?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.16972811023394266,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The chemical formula for table salt is sodium chloride, NaCl.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q131",
+    "query": "Who wrote the novel Pride and Prejudice?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.2745133340358734,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Pride and Prejudice was written by Jane Austen.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q132",
+    "query": "How do vaccines produce immunity?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.15240111450354257,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Vaccines introduce a harmless piece of a pathogen—such as a protein, a weakened or inactivated virus, or a genetic blueprint for a viral protein—so the immune system can recognize it. This exposure triggers the production of specific antibodies and the activation of T‑cells, creating a “memory” of the antigen. When the real pathogen later enters the body, those memory cells mount a rapid, targeted response that neutralizes the threat before it can cause disease.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q133",
+    "query": "What is the tallest mountain in Africa?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.25493742028872174,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Answer: The tallest mountain in Africa is Mount Kilimanjaro, which rises to about 5,895 meters (19,341 feet) above sea level.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q134",
+    "query": "How long does light take to travel from the Sun to the Earth?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.17163659632205963,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Light takes about 8 minutes and 20 seconds to travel from the Sun to Earth, covering roughly 150 million kilometers.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q135",
+    "query": "What causes the seasons on Earth?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.20186260342597961,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The seasons are caused by Earth’s axial tilt of about 23.5°. As Earth orbits the Sun, this tilt makes different hemispheres receive varying amounts of direct sunlight at different times of the year. The resulting changes in solar insolation produce the seasonal temperature and daylight variations we experience.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q136",
+    "query": "Who painted the Mona Lisa?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.22121156255404154,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Leonardo da Vinci painted the Mona Lisa.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q137",
+    "query": "What is the largest planet in the Solar System?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.15081707139809927,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The largest planet in the Solar System is Jupiter.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q138",
+    "query": "How is sourdough bread made?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.15983568131923676,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Sourdough bread is made by mixing flour, water, and a natural starter that contains wild yeast and lactic acid bacteria, which ferments the dough over several hours or days. The dough is then shaped, allowed to rise (proof) at room temperature or in a cooler environment, and finally baked at a high temperature to develop a crisp crust and tangy flavor. The long, slow fermentation gives sourdough its characteristic sour taste and chewy crumb.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q139",
+    "query": "What is the function of mitochondria in a cell?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.17272208134333292,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Mitochondria are the cell’s powerhouses, producing the majority of ATP through oxidative phosphorylation. They also help regulate cellular metabolism, calcium homeostasis, and programmed cell death (apoptosis). Thus, mitochondria are essential for energy supply and various signaling pathways in the cell.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q140",
+    "query": "Which is the longest river in South America?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.22156269351641336,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The Amazon River is the longest river in South America.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q141",
+    "query": "What is the speed of sound in dry air at sea level?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.15555499494075775,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The speed of sound in dry air at sea level (standard conditions, 20 °C, 101.3 kPa) is about **343 m s⁻¹** (≈ 1,125 ft s⁻¹).",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q142",
+    "query": "Who developed the theory of general relativity?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.17977372308572134,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The theory of general relativity was developed by Albert Einstein. He published the final form of the theory in 1915, extending his earlier work on special relativity to include gravitation as the curvature of spacetime. Einstein’s equations have since become the foundation of modern gravitational physics.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q143",
+    "query": "Which programming language was created by Guido van Rossum?",
+    "category": "out_of_domain",
+    "answerable": false,
+    "confidence": 0.1530374437570572,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Python.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q144",
+    "query": "What was the total match attendance across the 2023 IPL season?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6182543635368347,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q145",
+    "query": "What is Virat Kohli's batting strike rate in IPL finals?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6637738148371378,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "Virat Kohli’s batting strike rate in IPL finals is about **140.5**.",
+    "baseline_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q146",
+    "query": "How many sixes were hit in the 2024 IPL season?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6051319241523743,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "In the 2024 IPL season, a total of 1,200 sixes were hit across all matches.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q147",
+    "query": "What was the highest television viewership figure recorded for an IPL match?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6691612005233765,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The highest television viewership figure recorded for an IPL match was 253 million viewers, reported by Star Sports for the opening‑weekend matches.",
+    "rag_scores": {
+      "relevance": 3.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q148",
+    "query": "What is MS Dhoni's batting average in IPL playoff matches?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6377513607343038,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q149",
+    "query": "How many runs were scored in total across the 2025 IPL season?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.592508852481842,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The total runs scored across the 2025 IPL season was 12,345.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q150",
+    "query": "What is the average attendance at Chennai Super Kings home matches?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6636344989140829,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The average attendance at Chennai Super Kings home matches is **30,400**.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The average attendance at Chennai Super Kings home matches is roughly 30,000 spectators per game.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    }
+  },
+  {
+    "id": "q151",
+    "query": "What is Rohit Sharma's bowling average in the IPL?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6686262488365173,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 2.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q152",
+    "query": "How many catches has Suresh Raina taken in the IPL?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.603437602519989,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "Suresh Raina has taken **70 catches** in his IPL career.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q153",
+    "query": "What is the highest successful run chase in IPL history?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.7207177480061849,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The record for the highest successful run chase in IPL history is 265 runs, achieved by the Punjab Kings when they chased down a target set by the Delhi Capitals in 2026.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q154",
+    "query": "What is the lowest total ever successfully defended in an IPL match?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6226953665415446,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The lowest total ever successfully defended in IPL history is 49 runs.  \nRajasthan Royals bowled out Delhi Daredevils for 48 in 2008, and Chennai Super Kings repeated the feat against Kings XI Punjab in 2010 and Royal Challengers Bangalore in 2011.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q155",
+    "query": "How many players have scored an IPL century for the Mumbai Indians?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6523490746816,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q156",
+    "query": "What is Jos Buttler's highest score in the IPL?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6940768559773763,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "Jos Buttler’s highest score in the IPL is 124 runs off 64 balls, achieved for Rajasthan Royals against Sunrisers Hyderabad in 2021. This innings set the record for the highest individual score by an English player in the league.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q157",
+    "query": "What is the win percentage of the Chennai Super Kings at their home ground?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6497217416763306,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "They have a win percentage of roughly 60 % at their home ground, the M. A. Chidambaram Stadium (Chepauk).",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q158",
+    "query": "How many maiden overs have been bowled in IPL history?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.5717563033103943,
+    "abstain": true,
+    "hit@k": null,
+    "rag_answer": "I don't know based on the provided context.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "As of the conclusion of the 2023 IPL season, a total of **1,200 maiden overs** have been bowled in the tournament’s history.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q159",
+    "query": "What is the fastest century recorded in the IPL?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.6804622411727905,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "The fastest century in the IPL was 100 runs off just 30 balls.",
+    "rag_scores": {
+      "relevance": 5.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "",
+    "baseline_scores": {
+      "relevance": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  {
+    "id": "q160",
+    "query": "What was the total prize money awarded in the 2024 IPL?",
+    "category": "in_domain_hard",
+    "answerable": "uncertain",
+    "confidence": 0.7283319433530172,
+    "abstain": false,
+    "hit@k": null,
+    "rag_answer": "I don't know.",
+    "rag_scores": {
+      "relevance": 1.0,
+      "faithfulness": 5.0
+    },
+    "baseline_answer": "The total prize money pool for the 2024 IPL was ₹5 crore.  \nThe winner received ₹1.5 crore, the runner‑up ₹1 crore, third place ₹50 lakh, fourth ₹25 lakh, and the remaining teams ₹10 lakh each.",
+    "baseline_scores": {
+      "relevance": 5.0,
+      "faithfulness": 1.0
+    }
+  }
+]

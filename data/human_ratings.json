@@ -1,0 +1,167 @@
+[
+  {
+    "id": "q002",
+    "category": "factual",
+    "question": "In which format of cricket is the Indian Premier League played?",
+    "context": "The Indian Premier League is a professional Twenty20 (T20) cricket league held in India, organised by the Board of Control for Cricket in India (BCCI). It is held annually since the first edition in 2008. Chennai Super Kings were the defending champions, having won their fifth title in the previous season after beating Gujarat Titans in the final.\nThe Indian Premier League (IPL) is a professional Twenty20 (T20) cricket league, organised by the Board of Control for Cricket in India (BCCI). It is held annually since the first edition in 2008. Kolkata Knight Riders were the defending champions, having won their third title in the previous season after defeating Sunrisers Hyderabad in the final.\n%5B%5BWikipedia%3ATemplates+for+discussion%2FLog%2F2025+December+5%23Template%3ASeason+sidebar%5D%5D{{{CRITERION}}} The Indian Premier League (IPL) is a domestic, annual Twenty20 cricket tournament played in India since 2008. It is organized by the IPL Governing Council, under the aegis of the Board of Control for Cricket in India (BCCI). It is the most watched Twenty20 tournament, and the second-best-paying sporting league globally. As of 2026, the IPL consists of ten teams representing ten",
+    "answer": "The Indian Premier League is played in the Twenty20 (T20) format of cricket.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q008",
+    "category": "factual",
+    "question": "Which stadium is the home ground of Royal Challengers Bengaluru?",
+    "context": "The Royal Challengers Bengaluru, also known as RCB, formerly the Royal Challengers Bangalore, are a professional Twenty20 cricket team based in Bengaluru, Karnataka, that competes in the Indian Premier League (IPL). They won their first title in 2025 and their second title in 2026. The team finished as the runners-up on three occasions in 2009, 2011, and 2016, and have also qualified for the playoffs in eleven of the nineteen seasons. As of 2026, the team is captained by Rajat Patidar and\nand squash courts, a table tennis area, a 3D projector theatre, three practice grounds, and 50 rooms. The parking lot can accommodate 3,000 cars and 10,000 two-wheelers. A ramp leading to the stadium is designed to facilitate the movement of around 60,000 people simultaneously. The arena has been designed in such a way that the upper stands can remain empty (such as during smaller events) while maintaining a sufficient crowd atmosphere. However, a game between Royal Challengers Bangalore and\nin the heart of the city of Bangalore. It regularly hosts Test, ODI, T20I and first-class cricket matches, as well as musical, cultural events. The stadium is the home ground of the Karnataka men's, Karnataka women's as well as franchises RCB men's and RCB women's teams. It is owned by the Government of Karnataka and has been leased out to the KSCA for a period of 100 years. Formerly known as the Karnataka State Cricket Association Stadium, it was later rechristened in tribute to M.",
+    "answer": "The home ground of Royal Challengers Bengaluru is the M. Chinnaswamy Stadium in Bangalore. It was formerly known as the Karnataka State Cricket Association Stadium before being renamed in tribute to M. Chinnaswamy.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 3.0,
+    "human_relevance": 4.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q019",
+    "category": "factual",
+    "question": "What were the Delhi Capitals known as before 2019?",
+    "context": "Capitals, and ILT20 team Dubai Capitals. In December 2018, the team changed its name from the Delhi Daredevils to the Delhi Capitals. Speaking about the rationale behind changing the team's name, co-owner and chairman Parth Jindal said, \"Delhi is the power centre of the country, it is the capital, therefore the name Delhi Capitals.\" Co-owner Kiran Kumar Grandhi said, \"The new name symbolizes Delhi's identity and just like the city, we are aiming to be the centre of all action going forward.\"\nSince 2008, the stadium has been the home of the Delhi Capitals (formerly Delhi Daredevils) of the Indian Premier League.\nThe Delhi Capitals is owned and operated by JSW GMR Cricket Pvt. Ltd. (JGCPL), formerly known as GMR Sports Private Limited. The franchise is a 50:50 joint venture between the GMR Sports and JSW Sports, the sports arm of GMR Group and JSW Group respectively .",
+    "answer": "Before 2019 the franchise was known as the **Delhi Daredevils**.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q045",
+    "category": "reasoning",
+    "question": "How does the IPL player auction work?",
+    "context": "usually takes place in the winter months, in the middle of the IPL's offseason. Players who are not retained, and players who were not attached to a team in the previous tournament, can enter the auction. Each player signs up for the auction, sets their base price and plays for the highest-bidding franchise. Once purchased, the final bid determines the player's salary for that season, and the amount is deducted from the salary cap. Unsold players at the auction can become replacement signings\nBefore the auction, teams are permitted to retain a select number of players for the following season. The rules for retaining players are determined by the league prior to each auction. The salaries of retained players are deducted from the team's salary cap prior to the auction. These players do not participate in the auction and merely continue with their current franchise. The auction usually takes place in the winter months, in the middle of the IPL's offseason. Players who are not\nis deducted from the salary cap. Unsold players at the auction can become replacement signings for injured or unavailable players. The league holds an auction every year, but every 3 years the league will hold a 'mega auction'. At this mega auction, teams can only retain a small number of players (6 players at the most recent mega auction) and are required to release a majority of their squad to the auction pool. This system is designed to ensure parity between teams as it forces them to",
+    "answer": "The IPL auction is held in the winter during the off‑season; players who are not retained or who were unattached can register, set a base price, and then compete for the highest bid from franchises. The winning bid becomes that player’s salary for the season and is deducted from the team’s salary cap, while any unsold players may be signed as replacements for injured or unavailable players. Prior to the auction teams may retain a limited number of players, whose salaries are also taken out of the cap, and every three years a “mega auction” forces teams to release most of their squad and retain only a few players to maintain parity.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q053",
+    "category": "reasoning",
+    "question": "Why is the Indian Premier League considered commercially significant?",
+    "context": "The Indian Premier League (IPL) is a professional Twenty20 (T20) cricket league in India, organised by the Board of Control for Cricket in India (BCCI). Founded in 2007, it features ten city-based franchise teams. The IPL is widely regarded as the world's most commercially successful cricket league. It is the 11th richest sporting league in the world by revenue. It is held annually between March and May. It has an exclusive window in the Future Tours Programme of the International Cricket\n%5B%5BWikipedia%3ATemplates+for+discussion%2FLog%2F2025+December+5%23Template%3ASeason+sidebar%5D%5D{{{CRITERION}}} The Indian Premier League (IPL) is a domestic, annual Twenty20 cricket tournament played in India since 2008. It is organized by the IPL Governing Council, under the aegis of the Board of Control for Cricket in India (BCCI). It is the most watched Twenty20 tournament, and the second-best-paying sporting league globally. As of 2026, the IPL consists of ten teams representing ten\nThe Indian Premier League is a professional Twenty20 (T20) cricket league held in India, organised by the Board of Control for Cricket in India (BCCI). It is held annually since the first edition in 2008. Chennai Super Kings were the defending champions, having won their fifth title in the previous season after beating Gujarat Titans in the final.",
+    "answer": "The IPL is considered commercially significant because it is the world’s most commercially successful cricket league, ranking as the 11th richest sporting league globally by revenue and the second‑best‑paying league worldwide. Its high sponsorship, broadcasting deals, and fan engagement generate substantial income, making it a major economic force in sports.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 3.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 4.0
+  },
+  {
+    "id": "q061",
+    "category": "comparative",
+    "question": "Which team has won more IPL titles, the Chennai Super Kings or the Mumbai Indians?",
+    "context": "The Super Kings have played the Mumbai Indians 40 times in the IPL, with Chennai winning 19 of those matches. They are the two most successful IPL teams with five titles each. The two teams have met each other at the final of the IPL four times, with Mumbai winning thrice and Chennai winning once.\nThe Mumbai Indians' most prolific rivalry is with the Chennai Super Kings. The rivalry is generally referred to as the IPL Classico as the two have been the most successful teams since the inception of the IPL, both securing five championships. Chennai Super Kings and Mumbai Indians have played against each other more times than any other two teams in the IPL. The two teams have met each other at the final of the IPL four times—the most for any two franchises in the league's history. The rivalry\nwhere Mumbai successfully defended a modest total, winning a heart-stopping match by just 1 run on the final ball to claim their record-breaking fourth title. As of the 2026 IPL season, the two franchises have faced each other 43 times across all competitions, with Mumbai Indians holding a narrow lead of 22 victories to Chennai's 21. However, the tide has turned significantly in recent years. Since the 2020 season, Chennai Super Kings have dominated the matchup, winning 9 out of the 13",
+    "answer": "Both teams have won the same number of IPL titles.  \nChennai Super Kings and Mumbai Indians each have five championships.  \nThus neither has more titles than the other.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q065",
+    "category": "comparative",
+    "question": "Which franchise joined the IPL later, the Gujarat Titans or the Sunrisers Hyderabad?",
+    "context": "Sunrisers Hyderabad replaced the Deccan Chargers in 2012 and debuted in the 2013 season. The franchise was awarded to the Sun TV Network after the termination of the Deccan Chargers, whose owners, Deccan Chronicle Holdings Ltd, were expelled from the league by the BCCI following prolonged financial and operational issues. The new ownership group, led by media baron Kalanithi Maran of the Sun Group, secured the Hyderabad-based franchise rights with a successful bid of ₹85.05 crore (US$8.8\nrespective owners. The franchise was owned by Intex Technologies. They had to be disbanded after Rajasthan Royals returned to the IPL in 2018. However, Gujarat made a return to the tournament with another franchise named Gujarat Titans (based in Ahmedabad), owned by the Torrent Group and CVC Capital Partners joined the IPL in 2022, which is one of the 10 teams currently to complete in the IPL.\nthe franchise fee. In September 2012, the Deccan Chargers franchise agreement was terminated after the BCCI failed to find new owners. In October, an auction was held for a replacement franchise; Sun TV Network won the bid for what became the Hyderabad franchise; the team was named Sunrisers Hyderabad. Pune Warriors India withdrew from the IPL in May 2013 due to financial differences with the BCCI. The BCCI officially terminated the franchise in October, and the league reverted to eight teams.",
+    "answer": "Gujarat Titans joined the IPL later.  \nSunrisers Hyderabad debuted in the 2013 season, while Gujarat Titans entered the league in 2022.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q067",
+    "category": "comparative",
+    "question": "Which venue is larger, the Narendra Modi Stadium or the M. Chinnaswamy Stadium?",
+    "context": "Narendra Modi Stadium is an international cricket stadium in Motera, Ahmedabad, Gujarat, India. With a total capacity of 132,000, it is the world's largest cricket stadium and the largest overall stadium in the world by capacity. It is owned by the Gujarat Cricket Association, and hosts both domestic and international cricket matches. The stadium has hosted several high-profile matches, such as the 2023 Cricket World Cup final and the 2026 Men's T20 World Cup final. The stadium will also be used\nThe stadium has four dressing rooms, 11 centre pitches, and two practice grounds. The practice grounds can also serve as venues for domestic matches. On 24 February 2020, the new stadium first opened to the public by hosting the Namaste Trump event, which saw an approximate attendance of 125,000 people. One year later, on 24 February 2021, the stadium was officially inaugurated by Indian president Ram Nath Kovind and renamed \"Narendra Modi Stadium\" in honour of Modi who had previously served as\nare 21 stadiums in India that have hosted at least one official Test match. In recent years, there has been an increase in the number of world-class cricket stadiums in India. India currently has the world's largest cricket stadium (which is also the world's largest stadium), The Narendra Modi Stadium, located in Ahmedabad, Gujarat, India. It is currently recognised as one of the world's premier cricket venues and has hosted several high-profile matches. Eden Gardens has hosted the most Tests,",
+    "answer": "The Narendra Modi Stadium is larger. It has a capacity of 132,000, making it the world’s largest cricket stadium, whereas M. Chinnaswamy Stadium’s capacity is far smaller.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 3.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q086",
+    "category": "numeric",
+    "question": "How many new franchises were added to the IPL in 2011?",
+    "context": "₹7,000 crore (US$730 million) and ₹5,200 crore (US$540 million), respectively. The teams were subsequently named Lucknow Super Giants and Gujarat Titans. Several IPL franchise owners have expanded their business by acquiring teams in other franchise leagues, such as the West Indies' Caribbean Premier League (CPL), South Africa's SA20, the UAE's International League T20 (ILT20) and the USA's Major League Cricket (MLC). In 2023, owners of three existing IPL teams – Mumbai Indians, Delhi Capitals\nsporting league globally. As of 2026, the IPL consists of ten teams representing ten cities across India. Overall fifteen teams have played across the past seasons of the tournament, with five becoming defunct later. Eight franchises took part in the inaugural edition in 2008. Ahead of the 2011 season, Kochi Tuskers and Pune Warriors joined the league. Kochi Tuskers was terminated after a single season by the BCCI for contractual breach. After the 2012 season, Deccan Chargers ceased to exist\nKings and Mumbai Indians are the most successful franchises with five titles each. Kolkata Knight Riders have won three titles. Royal Challengers Bengaluru have won two titles, while Gujarat Titans, Sunrisers Hyderabad, Rajasthan Royals, Deccan Chargers have won one title each. Up until the 2021 season, an IPL tournament involved each team playing every other team twice in a home-and-away, double round-robin format. Since 2022, the ten teams are divided into two groups of five teams as",
+    "answer": "Two new franchises were added to the IPL in 2011: the Kochi Tuskers and the Pune Warriors.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q089",
+    "category": "numeric",
+    "question": "What is the seating capacity of the Wankhede Stadium?",
+    "context": "Wankhede Stadium was proposed to be used as one of the venues for World Cup 2023. The up-gradation of the stadium is currently in works where Shashi Prabhu & Associates have once again been appointed to oversee the restoration of entire outfield. The matches were played in October and November 2023.\nup a project for the redevelopment of the Wankhede Stadium. While redeveloping the Stadium, major changes were at the North end and the South end with better facilities for the spectators in terms of bucket seating, a large number of toilets, and food courts. While MCA undertook the redevelopment of Wankhede Stadium, the ground was not available for domestic and international cricket until February 2011. To ensure that MCA did not miss out on the turn of Test and ODI matches and also to develop\nthere are exhaust fans that suck the hot air from the stands and allow the breeze from the West to flow in. The stadium has 20 elevators for North and South stands. The stadium has a capacity of 33,108, following renovations for the 2011 Cricket World Cup. Before the upgrade, the capacity was approximately 39,000.",
+    "answer": "The Wankhede Stadium’s seating capacity is 33,108 after the 2011 renovations.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q113",
+    "category": "near_miss",
+    "question": "Is Chennai Super Kings a better-run franchise than the Delhi Capitals?",
+    "context": "The Chennai Super Kings, also known as CSK, are a professional Twenty20 cricket team based in Chennai, Tamil Nadu, that competes in the Indian Premier League (IPL). The team was one of the eight debut franchises when the league was established in 2008. The team plays its home matches at the M. A. Chidambaram Stadium and is owned by Chennai Super Kings Cricket. The Super Kings are the joint-most successful IPL franchise, along with Mumbai Indians, having won five IPL titles each. It has also\nof Gujarat Titans and Lucknow Super Giants, making it a ten-team tournament. Over time, some teams underwent rebranding, such as Delhi Daredevils becoming Delhi Capitals in 2019 and Kings XI Punjab rebranding as Punjab Kings in 2021. Chennai Super Kings and Mumbai Indians remain the most successful franchises, winning five IPL titles each. As of the 2025 season, the league consists of 10 teams.\nThe Delhi Capitals is owned and operated by JSW GMR Cricket Pvt. Ltd. (JGCPL), formerly known as GMR Sports Private Limited. The franchise is a 50:50 joint venture between the GMR Sports and JSW Sports, the sports arm of GMR Group and JSW Group respectively .",
+    "answer": "Based on the context, Chennai Super Kings have a longer history (since 2008) and have won five IPL titles, the joint-most in the league, while Delhi Capitals were rebranded in 2019 and are owned by a 50:50 joint venture. This record of success and longevity could suggest that CSK is better-run, but the context does not explicitly compare the management quality of the two franchises. Therefore, a definitive conclusion cannot be drawn solely from the provided information.",
+    "judge_relevance": 3.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 4.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q118",
+    "category": "near_miss",
+    "question": "Which bowler has the best figures in an IPL match played on a Tuesday?",
+    "context": "(126).  Indian bowler Yuzvendra Chahal holds the record for the most wickets taken (231). Indian batsman Rohit Sharma and wicket-keeper MS Dhoni are the most successful captains in the league, each winning five titles. Dhoni also holds the record for the most matches played. West Indies batsman Chris Gayle holds several individual batting records, including the highest individual score in a match (175*), the most sixes scored (357), the most sixes in a match (17), and the fastest century (off\nBest bowling (in a match): Axar Patel 11/70 – India v England, 13 February 2021. Most runs: Rahul Dravid (India) 771 Runs (Mat:7 Inn: 14 HS: 222 Ave: 59.30 SR: 49.10 100s–3 50s–1), Sachin Tendulkar – 642 runs, VVS Laxman – 574 runs. (including stats of Sardar Patel Stadium) Most wickets: Anil Kumble (India) 36 Wickets (Mat:7 Runs:964 BBI:7/115 BBM: 10/233 Ave:26.77 Econ: 2.29 SR: 70.1 5W/I: 3 10W/M:1). (including stats of Sardar Patel Stadium)\n(328 runs). The most wickets were taken by Zaheer Khan (14 wickets) followed by Javagal Srinath (10 wickets) and Venkatesh Prasad & Kapil Dev (8 wickets each)",
+    "answer": "The best bowling figures in an IPL match that took place on a Tuesday belong to **Axar Patel**, who took 11 wickets for 70 runs in the India v England game on 13 February 2021.",
+    "judge_relevance": 1.0,
+    "judge_faithfulness": 1.0,
+    "human_relevance": 1.0,
+    "human_faithfulness": 1.0
+  },
+  {
+    "id": "q147",
+    "category": "in_domain_hard",
+    "question": "What was the highest television viewership figure recorded for an IPL match?",
+    "context": "on JioCinema. The final peaked at over 32 million viewers on JioCinema, overtaking a match from the 2019 Cricket World Cup as the most concurrent viewers on a live streaming event worldwide.\nIn the opening weekend of three matches, Star Sports reported 253 million viewership, with a 39% increase in the average television viewership rating compared to last season, while JioHotstar reported 1.37 billion viewership, a 40% increase from last season. The final match reported a record-breaking 169 million viewership.\nHighest total in the stadium: 687/6d by India against Bangladesh on 9 February 2017 Lowest total in the stadium: 68/0 by India against New Zealand on 9 February 2017",
+    "answer": "The highest television viewership figure recorded for an IPL match was 253 million viewers, reported by Star Sports for the opening‑weekend matches.",
+    "judge_relevance": 3.0,
+    "judge_faithfulness": 1.0,
+    "human_relevance": 1.0,
+    "human_faithfulness": 1.0
+  },
+  {
+    "id": "q156",
+    "category": "in_domain_hard",
+    "question": "What is Jos Buttler's highest score in the IPL?",
+    "context": "making 55 in a thrilling one-run win over Perth Scorchers. Buttler departed as the tournament's leading run-scorer, with 273 from seven innings, making three half-centuries at an average of 39.00.\nStadium, Grenada. This is also the highest ODI score for an Englishman against the West Indies. Buttler is yet to score a century in one-day matches in county cricket. Buttler's highest T20 league score of 124 out from 64 balls was made for Rajasthan Royals against Sunrisers Hyderabad in the 2021 Indian Premier League at the Arun Jaitley Stadium, New Delhi and shattered the record for the highest score in the Indian Premier League (IPL) by an English player which was previously held by Jonny\nfive scores of fifty or more in consecutive matches. He made an unbeaten 95 from 60 balls against Chennai Super Kings, his highest score in the season at that time.",
+    "answer": "Jos Buttler’s highest score in the IPL is 124 runs off 64 balls, achieved for Rajasthan Royals against Sunrisers Hyderabad in 2021. This innings set the record for the highest individual score by an English player in the league.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 5.0,
+    "human_faithfulness": 5.0
+  },
+  {
+    "id": "q159",
+    "category": "in_domain_hard",
+    "question": "What is the fastest century recorded in the IPL?",
+    "context": "the same game, he scored the fastest century in terms of number of balls faced, scoring 100 runs in 30 deliveries. The slowest century was jointly scored by Manish Pandey and Virat Kohli, both for Royal Challengers Bengaluru, reaching the milestone in 67 deliveries. The highest number of centuries have been scored by Virat Kohli (9 centuries) followed by Jos Buttler with 7, Chris Gayle and KL Rahul with 6 centuries each, and Shubman Gill and Sanju Samson with 5 centuries each. Shane Watson and\nJoint Record, with Mohammad Shahzad and Waseem Muhammad for Fastest T10 Fifty in 12 Balls in the Abu Dhabi T10 in 2021.\nwith his right-arm off-break spin bowling. He was awarded the Most Valuable Player in the 2011 Indian Premier League and held the Orange Cap in 2012. On 23 April 2013, he broke the record for the fastest ever T20 hundred in his landmark knock of 175 runs from 66 balls for Royal Challengers Bangalore against Pune Warriors India in the IPL, which is also the highest score ever by a batsman in T20 history. He also equaled the record for the fastest 50 in T20 cricket while playing for Melbourne",
+    "answer": "The fastest century in the IPL was 100 runs off just 30 balls.",
+    "judge_relevance": 5.0,
+    "judge_faithfulness": 5.0,
+    "human_relevance": 3.0,
+    "human_faithfulness": 4.0
+  }
+]

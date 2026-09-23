@@ -1,0 +1,65 @@
+[
+  {
+    "category": "factual",
+    "n": 40,
+    "abstain_rate": 0.075,
+    "generator_refusals": 1,
+    "relevance": 4.625,
+    "faithfulness": 4.675,
+    "mean_confidence": 0.6909240101774533
+  },
+  {
+    "category": "reasoning",
+    "n": 20,
+    "abstain_rate": 0.1,
+    "generator_refusals": 2,
+    "relevance": 4.2,
+    "faithfulness": 4.5,
+    "mean_confidence": 0.6702095896005631
+  },
+  {
+    "category": "comparative",
+    "n": 15,
+    "abstain_rate": 0.13333333333333333,
+    "generator_refusals": 3,
+    "relevance": 3.533333333333333,
+    "faithfulness": 3.4,
+    "mean_confidence": 0.6658811456627316
+  },
+  {
+    "category": "numeric",
+    "n": 15,
+    "abstain_rate": 0.06666666666666667,
+    "generator_refusals": 0,
+    "relevance": 4.733333333333333,
+    "faithfulness": 4.733333333333333,
+    "mean_confidence": 0.6690943751070235
+  },
+  {
+    "category": "in_domain_hard",
+    "n": 17,
+    "abstain_rate": 0.29411764705882354,
+    "generator_refusals": 7,
+    "relevance": 2.1176470588235294,
+    "faithfulness": 4.294117647058823,
+    "mean_confidence": 0.6495524200738645
+  },
+  {
+    "category": "near_miss",
+    "n": 35,
+    "abstain_rate": 0.5714285714285714,
+    "generator_refusals": 12,
+    "relevance": 1.3142857142857143,
+    "faithfulness": 4.257142857142857,
+    "mean_confidence": 0.6134487427416302
+  },
+  {
+    "category": "out_of_domain",
+    "n": 18,
+    "abstain_rate": 1.0,
+    "generator_refusals": 0,
+    "relevance": 1.0,
+    "faithfulness": 5.0,
+    "mean_confidence": 0.19569202926423815
+  }
+]

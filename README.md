@@ -1,267 +1,198 @@
-# RAG Evaluation and Hallucination Analysis
+# Confidence-Gated Abstention for Reducing Hallucination in RAG
 
-This repository contains an experimental implementation of a Retrieval-Augmented Generation (RAG) system focused on evaluating retrieval quality, response grounding, and hallucination control using an abstention mechanism.
+An empirical study of a simple question: **can a retriever's own similarity
+score tell a RAG system when to keep quiet?**
 
-The goal of this work is not just to build a RAG pipeline, but to study how retrieval confidence affects answer quality and when a model should refuse to answer.
+The mechanism is deliberately plain — average the top-*k* similarity scores,
+and refuse to answer if that average falls below a threshold τ. The work is in
+measuring it properly: scoring the abstention *decision* against ground truth
+rather than reporting a bare abstain rate, and choosing τ by an explicit rule
+rather than by eye.
 
 ---
 
 ## Motivation
 
-LLMs often produce confident but incorrect answers when retrieval is weak or irrelevant. Standard RAG pipelines reduce hallucination, but they still generate responses even when the context is unreliable.
-
-This project explores a simple but practical idea:
-
-> A model should abstain when retrieval confidence is low.
-
-We implement this idea and evaluate how it impacts answer quality and system behavior.
+RAG is supposed to stop a language model making things up. Mostly it does —
+but most RAG systems still answer when retrieval has returned nothing useful,
+and nothing in the output distinguishes a grounded answer from a fabricated
+one. Letting the system decline is the obvious alternative. The question is
+how well a raw similarity score can drive that decision.
 
 ---
 
-## System Overview
+## Headline results
 
-The pipeline follows a standard RAG structure with an additional decision layer:
+Corpus: 62 Wikipedia pages on the Indian Premier League → 823 sections → 2,732
+passages. Query set: 160 hand-labelled queries, each marked `answerable`,
+`unanswerable`, or `uncertain` against that corpus. Crucially, the
+unanswerable set contains two kinds of query: 18 that are plainly off-topic,
+and 35 **near-miss** queries that are about the IPL but ask for something the
+corpus does not hold.
 
-Query → Retriever → Top-k Documents → Confidence Scoring  
-→ If confidence ≥ threshold → Generate Answer  
-→ If confidence < threshold → Abstain
+**RAG with abstention vs. the same model with no context** (τ\* = 0.62):
 
-Abstention output: "I don't know based on the provided context."
+| Metric | RAG | Baseline |
+|---|---:|---:|
+| Faithfulness (1–5) | **4.44** | **2.19** |
+| Faithfulness (answered only) | 4.18 | — |
+| Unfaithful answers (faithfulness < 3) | **7 / 84** | **99 / 160** |
+| Relevance (all 160) | 3.08 | 4.23 |
+| Relevance (answered only, n=109) | 4.06 | — |
+| Abstain rate | 31.9 % | 0 % |
 
+The baseline wins on raw relevance precisely because it answers everything,
+including the 53 questions it cannot possibly ground — which is the behaviour
+faithfulness is there to catch.
 
----
-
-## Dataset
-
-- Source: Wikipedia (Indian Premier League domain)
-- Custom scraped and processed dataset
-- Converted into chunked text passages for retrieval
-
-This domain was chosen to:
-- keep queries grounded
-- allow factual evaluation
-- control noise during experimentation
-
----
-
-## Tech Stack
-
-- Embeddings: `sentence-transformers (all-mpnet-base-v2)`
-- Vector Index: FAISS (L2)
-- LLM: Groq (LLaMA-based models)
-- Evaluation: LLM-as-judge (relevance and faithfulness scoring)
+**The abstention decision** at τ\* = 0.62, over the 143 labelled queries:
+precision 0.83, recall 0.72, F1 0.77, specificity 0.91, accuracy 0.84,
+MCC 0.65 (TP=38, FP=8, TN=82, FN=15).
 
 ---
 
-## Evaluation Metrics
+## Three findings worth the paper
 
-We evaluate both retrieval and generation:
+**1. Near-miss queries defeat the confidence gate; off-topic ones do not.**
+Out-of-domain queries score 0.135–0.336 against 0.517–0.824 for answerable
+ones — a clean gap of 0.18, and the gate abstains on 100 % of them. Near-miss
+queries score 0.462–0.715 and sit *inside* the answerable range: 74 of the 90
+answerable queries fall below the highest-scoring near-miss query, so no
+scalar threshold separates the two classes. The gate catches only 57 % of
+them. Retrieval similarity measures topical proximity, and a near-miss query
+is topically proximate by construction.
 
-- **Relevance**: Does the answer address the question?
-- **Faithfulness**: Is the answer supported by retrieved context?
-- **Hit@k**: Was the correct information retrieved?
-- **Abstain Rate**: How often the system refuses to answer
-- **Effective Relevance**: Relevance computed only on non-abstained responses
+**2. There is a genuine coverage–reliability tradeoff.**
+Recall climbs monotonically with τ (0.00 at 0.10 → 0.72 at 0.62 → 1.00 at
+0.75) while precision falls (1.00 at τ ≤ 0.50 → 0.38 at 0.80), producing a
+real optimum at τ\* = 0.62 rather than a plateau. An earlier run over a corpus
+with no near-miss queries showed recall pinned at 1.00 and looked like pure
+"precision decay"; that was a property of the query set, not of the method.
 
----
+**3. The gate is far better than chance, but not close to solved.**
+Against a random abstention baseline matched to the same abstain count
+(100 trials), the gate scores F1 0.77 vs 0.35 and MCC 0.65 vs 0.00. It is
+doing real work. It also leaves 15 unanswerable queries answered and 7
+unfaithful answers among 84 substantive ones. Rank-weighting the similarity
+scores (0.5/0.3/0.2) or taking the max instead of the mean does not help:
+F1 0.74 and 0.75 respectively, against 0.77 for the plain mean.
 
-## Experiments
+There is also a **second refusal channel**: 25 of the 109 queries the gate let
+through were declined by the generator itself, concentrated in exactly the
+categories the gate handles worst (12 near-miss, 7 in-domain-hard). The gate
+catches *topic absence*; the generator catches *question specificity*.
 
-### 1. Baseline vs RAG
+![Threshold sweep](results/threshold_plot.png)
 
-| Metric        | RAG  | Baseline |
-|--------------|------|----------|
-| Relevance     | 3.0  | 3.0      |
-| Faithfulness  | 5.0  | 3.66     |
-
-Observation:
-- RAG significantly improves faithfulness (answers are more grounded)
-- Relevance remains similar due to dataset and query scope
-
----
-
-### 2. Retrieval Quality
-
-Hit@k ≈ 0.66
-
-Interpretation:
-- Retrieval succeeds in ~2 out of 3 cases
-- Retrieval errors directly impact generation quality
-
----
-
-### 3. Threshold-Based Abstention
-
-We vary a confidence threshold on retrieved documents:
-thresholds = [0.45, 0.5, 0.55, 0.6, 0.62, 0.65, 0.7]
-
-
-For each threshold:
-- If average retrieval score < threshold → abstain
-- Else → generate answer
+![Confidence separation](results/confidence_plot.png)
 
 ---
 
-## Results
-
-The main result is shown below:
-
-![Threshold Plot](results/threshold_plot.png)
-
----
-
-## Key Observations
-
-### 1. Coverage vs Reliability Tradeoff
-
-- Lower threshold → more answers, but weaker reliability
-- Higher threshold → fewer answers, but safer outputs
-
----
-
-### 2. Abstention Behavior
-
-| Threshold | Abstain Rate |
-|----------|-------------|
-| 0.45     | ~0.0        |
-| 0.55     | ~0.33       |
-| 0.70     | ~0.66       |
-
-As threshold increases, the system becomes more conservative.
-
----
-
-### 3. Effective Relevance
-
-Effective relevance remains ~5.0 across thresholds.
-
-Interpretation:
-- When the model answers, it produces high-quality responses
-- Errors are primarily avoided through abstention
-
----
-
-### 4. Overall Relevance
-
-- Highest at low thresholds (~4.3)
-- Drops at higher thresholds (~2.3)
-
-Reason:
-- Increasing abstention reduces the number of evaluated answers
-
----
-
-### 5. Optimal Threshold
-
-Empirically observed:
-Optimal threshold ≈ 0.55
-
-
-This point balances:
-- answer coverage
-- response quality
-- hallucination control
-
----
-
-## Findings
-
-- RAG improves grounding but is limited by retrieval quality
-- Retrieval quality is the primary bottleneck in the pipeline
-- Introducing abstention significantly reduces hallucination risk
-- There is a clear and measurable tradeoff between:
-  - answering more questions
-  - answering them reliably
-
----
-
-## How to Run
-
-### 1. Setup
+## How to run it
 
 ```bash
-git clone <repo-url>
-cd <repo>
-python -m venv venv
-venv\Scripts\activate   # Windows
+python -m venv venv && venv\Scripts\activate      # Windows
 pip install -r requirements.txt
+cp .env.example .env                              # add your GROQ_API_KEY
+
+python src/scrape.py            # build the corpus      (network)
+python src/preprocess.py        # chunk it
+python src/experiments.py       # run every query once  (API calls; resumable)
+python src/select_threshold.py  # sweep tau, select tau*
+python src/analyze.py           # every number in the tables
+python src/plot.py              # Figure 1
+python src/plot_threshold.py    # Figure 2
+python src/plot_confidence.py   # Figure 3
 ```
 
-### 2. Build Dataset
+`experiments.py` is the **only** script that calls the API. It throttles
+itself under the per-minute token ceiling and is resumable — queries already
+in `results/per_query.json` are skipped, so a rate limit costs you one query,
+not the run. Everything downstream reads cached results and is free to re-run.
+
+### Judge validation
 
 ```bash
-python src/scrape.py
-python src/preprocess.py
+python src/judge_validation.py --worksheet 15   # emit a blank rating sheet
+#   ... fill in data/human_ratings.json by hand ...
+python src/judge_validation.py                  # MAE, exact match, r, rho, kappa_w
 ```
 
-### 3. Run Experiments
+**Status: not yet done.** The worksheet exists and the statistics are
+implemented and checked against `scipy`/`sklearn`; they have nothing to run on
+until a human rates the items.
 
-```bash
-python src/experiments.py
-```
+---
 
-### 4. Analyze Results
+## Design decisions worth knowing about
 
-```bash
-python src/analyze.py
-```
+**The sweep is derived, not re-run.** Retrieval and generation do not depend
+on τ — the same query retrieves the same passages and produces the same answer
+at every threshold. So each query is run once and the whole sweep is computed
+by masking on cached confidence scores. This is ~*k* times cheaper, and it
+makes the sweep exact: re-judging at each threshold lets judge nondeterminism
+move the faithfulness column independently of the variable under study.
 
-### 5. Generate Plot
+**Refusals are not hallucinations.** A refusal asserts nothing, so it is
+excluded from both the numerator and denominator of the hallucination rate,
+for RAG and baseline alike. This matters here: the judge scores the identical
+string `"I don't know."` as faithfulness 1 on nine queries and 5 on three
+others. Leaving refusals in would have reported 2 hallucinations instead of 1.
 
-```bash
-python src/plot.py
-```
+**Inner product, not L2.** The index is `faiss.IndexFlatIP` over L2-normalised
+embeddings, so the score *is* cosine similarity — higher is better, and no
+distance-to-similarity transform is applied. (Earlier documentation called it
+"FAISS (L2)", which implies the opposite ordering.)
 
-## Project Structure
+**Retrieval preserves rank order.** Results used to be deduplicated through a
+Python `set`, which destroyed the ranking and varied between processes because
+string hashing is randomised per interpreter. MRR@k is meaningless without the
+fix, and results were not reproducible despite the docs claiming they were.
+
+---
+
+## Layout
 
 ```
 src/
-├── scrape.py
-├── preprocess.py
-├── retriever.py
-├── generator.py
-├── evaluate.py
-├── experiments.py
-├── analyze.py
-├── plot.py
+├── config.py            every setting for a run, in one place
+├── scrape.py            Wikipedia -> data/raw_dataset.json
+├── preprocess.py        sections -> overlapping chunks
+├── retriever.py         embeddings + FAISS index + top-k retrieval
+├── llm.py               throttled Groq client with retry
+├── generator.py         RAG and no-context generation
+├── evaluate.py          LLM judge + retrieval metrics
+├── metrics.py           abstention confusion matrix, MCC, hallucination rate
+├── experiments.py       run every query once      (the only API caller)
+├── select_threshold.py  sweep tau, select tau*
+├── analyze.py           produces every reported number
+├── judge_validation.py  judge vs human agreement
+└── plot*.py             Figures 1-3
 
-data/
-├── chunks.json
-└── raw_dataset.json
-
-results/
-└── output.json
+data/     raw_dataset.json, chunks.json, queries.json, human_ratings.json
+results/  per_query.json (the cache), paper_numbers.json (the tables), figures
+docs/     methodology.md, experiments.md, results.md
 ```
+
+`results/per_query.json` is the source of truth: every reported number is
+derived from it, and it records the exact answer and score behind each one.
+
+---
 
 ## Limitations
 
-- Small dataset (single domain)
-- Limited query set
-- Evaluation relies on LLM scoring (not human-annotated)
-- No reranking or hybrid retrieval
+Stated in full in [docs/results.md](docs/results.md#9-limitations). The short
+version: one small domain, n = 30, a single run with no confidence intervals,
+out-of-domain queries that are unambiguous by construction, an uncalibrated
+confidence score, a faithfulness rubric that is partly circular by design and
+undefined for refusals, and no human validation yet.
 
-## Future Work
-
-- Hybrid retrieval (BM25 + dense)
-- Cross-encoder reranking
-- Larger and multi-domain datasets
-- Human evaluation benchmarks
-- Better calibration of abstention thresholds
-
-## Reproducibility
-
-To reproduce results:
-1. Build dataset: `python src/preprocess.py`
-2. Run experiments: `python src/experiments.py`
-3. Generate plots: `python src/plot.py`
-
-All results are deterministic given the same dataset and model configuration.
+---
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-Harsh Srivastava
-https://github.com/harshs16
+Harsh Srivastava — https://github.com/harshs16

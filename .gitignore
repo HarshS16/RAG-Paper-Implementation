@@ -1,4 +1,8 @@
 venv/
 __pycache__/
-*.json
+*.pyc
 .env
+
+# Data and results are part of the research artifact and ARE tracked.
+# (An earlier blanket `*.json` rule silently excluded the corpus, the query
+# set and every result file from version control.)

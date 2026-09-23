@@ -1,64 +1,92 @@
+"""Figure 1: RAG with abstention against the no-context baseline."""
+
 import json
+
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
-from config import OUTPUT_FILE, FINAL_PLOT_FILE
 
-with open(OUTPUT_FILE) as f:
-    results = json.load(f)
+import config
 
-# --- Extract ---
-rag_rel = [r["rag_scores"]["relevance"] for r in results]
-rag_faith = [r["rag_scores"]["faithfulness"] for r in results]
+BLUE, ORANGE, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
+GRID = "#d8d7d2"
+INK, INK_SOFT = "#0b0b0b", "#52514e"
 
-base_rel = [r["baseline_scores"]["relevance"] for r in results]
-base_faith = [r["baseline_scores"]["faithfulness"] for r in results]
+plt.rcParams.update({
+    "font.size": 9,
+    "axes.titlesize": 10,
+    "axes.labelsize": 9,
+    "legend.fontsize": 8,
+    "axes.edgecolor": INK_SOFT,
+    "text.color": INK,
+    "xtick.color": INK_SOFT,
+    "ytick.color": INK_SOFT,
+    "figure.facecolor": "white",
+    "axes.facecolor": "white",
+})
 
-# --- Overall averages ---
-rag_avg = [np.mean(rag_rel), np.mean(rag_faith)]
-base_avg = [np.mean(base_rel), np.mean(base_faith)]
 
-# --- Abstain ---
-abstains = [r["abstain"] for r in results]
-abstain_rate = sum(abstains) / len(abstains)
+def main():
+    with open(config.PAPER_NUMBERS_FILE, encoding="utf-8") as f:
+        numbers = json.load(f)
+    c = numbers["baseline_comparison"]
 
-# --- Effective (no abstain) ---
-valid = [r for r in results if not r["abstain"]]
+    groups = ["Relevance", "Faithfulness"]
+    series = [
+        ("RAG (all {} queries)".format(c["n"]),
+         [c["rag_relevance_overall"], c["rag_faithfulness"]], BLUE),
+        ("Baseline (no context)",
+         [c["baseline_relevance"], c["baseline_faithfulness"]], ORANGE),
+        # Answered-only on both axes: the overall faithfulness figure is lifted
+        # by the scoring rule that hands every abstention a 5, so the paper
+        # reports the un-lifted number beside it rather than only the headline.
+        ("RAG (answered only, n={})".format(c["rag_n_answered"]),
+         [c["rag_relevance_answered"], c["rag_faithfulness_answered"]], AQUA),
+    ]
 
-if len(valid) > 0:
-    rag_rel_eff = [r["rag_scores"]["relevance"] for r in valid]
-    rag_faith_eff = [r["rag_scores"]["faithfulness"] for r in valid]
-    rag_eff = [np.mean(rag_rel_eff), np.mean(rag_faith_eff)]
-else:
-    rag_eff = [0, 0]
+    x = np.arange(len(groups))
+    width = 0.26
 
-# --- Plot ---
-labels = ["Relevance", "Faithfulness"]
-x = np.arange(len(labels))
-width = 0.25
+    fig, ax = plt.subplots(figsize=(6.2, 4.0))
 
-plt.figure(figsize=(8, 5))
+    for i, (label, values, colour) in enumerate(series):
+        offset = (i - 1) * width
+        heights = [0 if v is None else v for v in values]
+        bars = ax.bar(x + offset, heights, width * 0.92, label=label,
+                      color=colour, edgecolor="white", linewidth=1.2, zorder=3)
+        # Direct labels on every bar: the aqua slot sits below 3:1 against a
+        # white surface, so identity must not rest on hue alone.
+        for bar, value in zip(bars, values):
+            if value is None:
+                continue
+            ax.annotate("{:.2f}".format(value),
+                        xy=(bar.get_x() + bar.get_width() / 2, value),
+                        xytext=(0, 3), textcoords="offset points",
+                        ha="center", va="bottom", fontsize=8, color=INK)
 
-plt.bar(x - width, rag_avg, width, label="RAG (Overall)")
-plt.bar(x, base_avg, width, label="Baseline")
-plt.bar(x + width, rag_eff, width, label="RAG (No Abstain)")
+    ax.set_xticks(x)
+    ax.set_xticklabels(groups)
+    ax.set_ylabel("Judge score (1-5)")
+    ax.set_ylim(0, 5.6)
+    ax.set_yticks([0, 1, 2, 3, 4, 5])
+    ax.grid(True, axis="y", linestyle="-", linewidth=0.6, color=GRID)
+    ax.set_axisbelow(True)
+    for side in ("top", "right"):
+        ax.spines[side].set_visible(False)
 
-# --- Labels ---
-plt.xticks(x, labels)
-plt.ylabel("Score")
-plt.title(f"RAG vs Baseline\nAbstain Rate: {abstain_rate:.2%}")
+    ax.set_title(
+        r"RAG with abstention vs. no-context baseline ($\tau^*$ = {}, "
+        "abstain rate {:.0%})".format(c["threshold"], c["abstain_rate"]),
+        pad=8)
+    # Below the axes rather than inside them: at upper right the legend box
+    # covered the value label on the tallest faithfulness bar.
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.10), ncol=3,
+              framealpha=0.95, edgecolor=GRID, columnspacing=1.4)
 
-# --- Value labels ---
-for i, v in enumerate(rag_avg):
-    plt.text(i - width, v + 0.05, f"{v:.2f}", ha='center')
+    fig.savefig(config.FINAL_PLOT_FILE, dpi=300, bbox_inches="tight")
+    print("Saved: {}".format(config.FINAL_PLOT_FILE))
 
-for i, v in enumerate(base_avg):
-    plt.text(i, v + 0.05, f"{v:.2f}", ha='center')
 
-for i, v in enumerate(rag_eff):
-    plt.text(i + width, v + 0.05, f"{v:.2f}", ha='center')
-
-plt.legend()
-plt.grid(axis='y', linestyle='--', alpha=0.6)
-
-plt.savefig(FINAL_PLOT_FILE, dpi=300, bbox_inches='tight')
-print(f"Saved: {FINAL_PLOT_FILE}")
+if __name__ == "__main__":
+    main()
